@@ -43,7 +43,7 @@ exports.westDust = () => {
                 port: loginDustUrl.port,
                 path: loginDustUrl.pathname,
                 method: 'GET',
-                timeout: 10000  
+                timeout: 10000
             }, (res) => {
                 result.id = extractJSession(res.headers);
                 res.on('data', data => body += data);
@@ -61,7 +61,7 @@ exports.westDust = () => {
 
             req.end();
 
-    
+
         });
     };
 
@@ -144,7 +144,7 @@ exports.westDust = () => {
                 logger.error(`westDust.js_144 : ${error}`);
             });
             req.end();
-            
+
         });
     };
 
@@ -186,7 +186,7 @@ exports.westDust = () => {
             });
             req.end();
 
-            
+
         });
     };
 
@@ -229,70 +229,71 @@ exports.westDust = () => {
         });
     };
 
-    const PM25PostData = async(data) => {
-        return new Promise(async(resolve, reject) => {
-            for(let i = 0; i<data.length; i++){
+
+    const pm25PostData = async (data) => {
+        return new Promise(async (resolve, reject) => {
+            for (let i = 0; i < data.length; i++) {
                 await fetch(`http://${api.apiUrl}/api/crawling/raw`, {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data[i])
-                }).then((res) => {return res.json()}).then((res)=>{
+                }).then((res) => { return res.json() }).then((res) => {
                     resolve(res);
                 }).catch((error) => {
-                    logger.error(`westDust.js_304 : ${error}`);
-                    resolve(error);
-                }); 
+                    logger.error(`westDust.js_243 : ${error}`);
+                    resolve();
+                });
             }
         })
     }
 
-    const PM10PostData = async(data) => {
-        return new Promise(async(resolve, reject) => {
-            for(let i = 0; i<data.length; i++){
-                fetch(`http://${api.apiUrl}/api/crawling/raw`, {
+    const pm10PostData = async(data) => {
+        return new Promise(async (resolve, reject) => {
+            for (let i = 0; i < data.length; i++) {
+                await fetch(`http://${api.apiUrl}/api/crawling/raw`, {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data[i])
-                }).then((res) => {return res.json()}).then((res)=>{
+                }).then((res) => { return res.json() }).then((res) => {
                     resolve(res);
                 }).catch((error) => {
-                    logger.error(`westDust.js_327 : ${error}`);
-                    resolve(error);
-                }); 
+                    logger.error(`westDust.js_260 : ${error}`);
+                    resolve();
+                });
             }
         })
     }
 
-    const TempPostData = async(data) => {
-        return new Promise(async(resolve, reject) => {
-            for(let i = 0; i<data.length; i++){
-                fetch(`http://${api.apiUrl}/api/crawling/raw`, {
+    const tempPostData = async(data) => {
+        return new Promise(async (resolve, reject) => {
+            for (let i = 0; i < data.length; i++) {
+                await fetch(`http://${api.apiUrl}/api/crawling/raw`, {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data[i])
-                }).then((res) => {return res.json()}).then((res)=>{
+                }).then((res) => { return res.json() }).then((res) => {
                     resolve(res);
                 }).catch((error) => {
-                    logger.error(`westDust.js_327 : ${error}`);
-                    resolve(error);
-                }); 
+                    logger.error(`westDust.js_277 : ${error}`);
+                    resolve();
+                });
             }
         })
     }
 
     const humiPostData = async(data) => {
-        return new Promise((resolve, reject) => {
-            for(let i = 0; i<data.length; i++){
-                fetch(`http://${api.apiUrl}/api/crawling/raw`, {
+        return new Promise(async (resolve, reject) => {
+            for (let i = 0; i < data.length; i++) {
+                await fetch(`http://${api.apiUrl}/api/crawling/raw`, {
                     method: "POST",
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data[i])
-                }).then((res) => {return res.json()}).then((res)=>{
+                }).then((res) => { return res.json() }).then((res) => {
                     resolve(res);
                 }).catch((error) => {
-                    logger.error(`westDust.js_327 : ${error}`);
-                    resolve(error);
-                }); 
+                    logger.error(`westDust.js_293 : ${error}`);
+                    resolve();
+                });
             }
         })
     }
@@ -302,7 +303,7 @@ exports.westDust = () => {
         let session;
         session = await loadLogin();
         logger.info(`westdust: 로그인 페이지 접속 성공`);
-       
+
         session = await execLogin(session.id, session.csrf, 'system', 'icwicw');
         logger.info(`westdust: 로그인 성공`);
 
@@ -310,14 +311,14 @@ exports.westDust = () => {
         privUrl = new URL(loginDustUrl.origin + session.location);
         session = await loadCsrf(session.id, privUrl);
         logger.info(`westdust: 모니터링 접속 성공`);
-        
+
 
         privUrl = new URL(loginDustUrl.origin + '/real_list');
         await loadNodeList(session.id, privUrl);
         logger.info(`westdust: 실시간 미세먼지 페이지 접속 성공`);
 
         let dustData = await readReport(session.id, session.csrf);
-        
+
         dustData = JSON.parse(dustData);
         logger.info(`westdust: 실시간 미세먼지 데이터 불러오기 성공`);
 
@@ -325,38 +326,39 @@ exports.westDust = () => {
             logger.info(`westdust: 데이터 0개 `);
             return null;
         } else {
-
+            console.log(dustData.data);
             let Value = [];
             for (let i = 0; i < dustData.data.length; i++) {
                 for (let j = 0; j < nodeData.data.length; j++) {
                     if (nodeData.data[j].name === dustData.data[i].name) {
-                            Value.push({
-                                id: nodeData.data[j].id,
-                                NodeName: nodeData.data[j].name,
-                                DataName: dustData.data[i].name,
-                                time: dustData.data[i].time,
-                                result: [
-                                    { pm25: dustData.data[i].sensor_pm25, time: dustData.data[i].time },
-                                    { pm10: dustData.data[i].sensor_pm10, time: dustData.data[i].time },
-                                    { temp: dustData.data[i].sensor_temp, time: dustData.data[i].time },
-                                    { humi: dustData.data[i].sensor_humi, time: dustData.data[i].time }
-                                ]
-                            });
+                        Value.push({
+                            id: nodeData.data[j].id,
+                            NodeName: nodeData.data[j].name,
+                            DataName: dustData.data[i].name,
+                            time: dustData.data[i].time,
+                            result: [
+                                { pm25: dustData.data[i].sensor_pm25, time: dustData.data[i].time },
+                                { pm10: dustData.data[i].sensor_pm10, time: dustData.data[i].time },
+                                { temp: dustData.data[i].sensor_temp, time: dustData.data[i].time },
+                                { humi: dustData.data[i].sensor_humi, time: dustData.data[i].time }
+                            ]
+                        });
                     }
                 }
             }
 
 
-            let pm25Value = [] //초미세
-            let pm10Value = []; // 미세
-            let tempValue = []; //온도
-            let humiValue = []; //습도
+            let pm25Value = [];
+            let pm10Value = [];
+            let tempValue = [];
+            let humiValue = [];
             for (let i = 0; i < Value.length; i++) {
-                let pm25 = Value[i].result[0]; //초미세
-                let pm10 = Value[i].result[1]; // 미세
-                let temp = Value[i].result[2]; //온도
-                let humi = Value[i].result[3]; //습도
-    
+                let pm25 = Value[i].result[0];
+                let pm10 = Value[i].result[1];
+                let temp = Value[i].result[2];
+                let humi = Value[i].result[3];
+
+
                 pm25Value.push({
                     sys_net_region_id: 28260,
                     sys_net_group_id: 28260,
@@ -365,6 +367,7 @@ exports.westDust = () => {
                     raw_mem_value: pm25.pm25,
                     raw_timestamp: Value[i].time
                 });
+
                 pm10Value.push({
                     sys_net_region_id: 28260,
                     sys_net_group_id: 28260,
@@ -373,6 +376,7 @@ exports.westDust = () => {
                     raw_mem_value: pm10.pm10,
                     raw_timestamp: Value[i].time
                 });
+
                 tempValue.push({
                     sys_net_region_id: 28260,
                     sys_net_group_id: 28260,
@@ -381,6 +385,7 @@ exports.westDust = () => {
                     raw_mem_value: temp.temp,
                     raw_timestamp: Value[i].time
                 });
+
                 humiValue.push({
                     sys_net_region_id: 28260,
                     sys_net_group_id: 28260,
@@ -391,21 +396,20 @@ exports.westDust = () => {
                 })
             }
 
-            session = await PM25PostData(pm25Value);
-            logger.info(`westdust: 초미세 success`);
-            session = await PM10PostData(pm10Value);
-            logger.info(`westdust: 미세 success`);
-            session = await TempPostData(tempValue);
-            logger.info(`westdust: 온도 success`);
+            session = await pm25PostData(pm25Value);
+            logger.info(`westDust 초미세먼지 ${pm25Value.length} 개 성공`);
+            session = await pm10PostData(pm10Value);
+            logger.info(`westDust 미세먼지 ${pm10Value.length} 개 성공`);
+            session = await tempPostData(tempValue);
+            logger.info(`westDust 온도 ${tempValue.length} 개 성공`);
             session = await humiPostData(humiValue);
-            logger.info(`westdust: 습도 success`);
-
+            logger.info(`westDust 습도 ${humiValue.length} 개 성공`);
         }
         return true;
     };
 
     run().catch((reason) => {
-        logger.error(`westDust.js_384 : ${reason}`);
+        logger.error(`westDust.js_412 : ${reason}`);
         return null;
     });
 }

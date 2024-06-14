@@ -1,0 +1,117 @@
+2024-06-13 16:16:01 info: ================ crawling logger start =================
+2024-06-13 16:16:01 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:16:01 info: namdongMinute : 로그인 성공
+2024-06-13 16:16:01 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:16:01 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:16:28 info: ================ crawling logger start =================
+2024-06-13 16:16:28 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:16:28 info: namdongMinute : 로그인 성공
+2024-06-13 16:16:28 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:16:28 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:19:02 info: namdongMinute Data: 2200 개
+2024-06-13 16:19:27 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-13 16:21:39 info: ================ crawling logger start =================
+2024-06-13 16:21:39 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:21:42 info: ================ crawling logger start =================
+2024-06-13 16:21:42 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:21:42 info: namdongMinute : 로그인 성공
+2024-06-13 16:21:42 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:21:42 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:24:37 info: namdongMinute Data: 2105 개
+2024-06-13 16:25:03 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-13 16:25:33 info: ================ crawling logger start =================
+2024-06-13 16:25:33 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:25:33 info: namdongMinute : 로그인 성공
+2024-06-13 16:25:33 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:25:33 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:25:38 info: ================ crawling logger start =================
+2024-06-13 16:25:38 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:25:38 info: namdongMinute : 로그인 성공
+2024-06-13 16:25:38 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:25:38 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:27:28 info: namdongMinute Data: 2090 개
+2024-06-13 16:27:47 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-13 16:29:06 info: ================ crawling logger start =================
+2024-06-13 16:29:06 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:29:06 info: namdongMinute : 로그인 성공
+2024-06-13 16:29:06 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:29:06 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:29:10 info: ================ crawling logger start =================
+2024-06-13 16:29:10 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:29:10 info: namdongMinute : 로그인 성공
+2024-06-13 16:29:10 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:29:10 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:31:16 info: namdongMinute Data: 2090 개
+2024-06-13 16:31:36 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-13 16:33:00 info: ================ crawling logger start =================
+2024-06-13 16:33:00 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:33:00 info: namdongMinute : 로그인 성공
+2024-06-13 16:33:00 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:33:00 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:33:06 info: ================ crawling logger start =================
+2024-06-13 16:33:06 info: namdongMinute : 로그인 페이지 진입
+2024-06-13 16:33:06 info: namdongMinute : 로그인 성공
+2024-06-13 16:33:06 info: namdongMinute : 모니터링 페이지 진입
+2024-06-13 16:33:06 info: namdongMinute : 데이터 불러오는 중
+2024-06-13 16:35:20 info: namdongMinute Data: 2090 개
+2024-06-13 16:47:21 info: ================ crawling logger start =================
+2024-06-13 16:47:31 error: westDust : 서버 타임아웃
+2024-06-13 16:47:31 error: westDust.js_59 : Error: socket hang up
+2024-06-13 17:02:14 info: ================ crawling logger start =================
+2024-06-13 17:02:14 info: 미세먼지 데이버 불러오기 성공 : 초 미세먼지 - 14 개 , 미세먼지- 7 개, 오존- 18 개
+2024-06-13 17:02:15 info: odcloud 초미세먼지 데이터 : 14 개
+2024-06-13 17:02:15 info: odcloud 미세먼지 데이터 : 7 개
+2024-06-13 17:02:15 info: odcloud 오존 데이터 : 7 개
+2024-06-13 17:03:44 info: ================ crawling logger start =================
+2024-06-13 17:03:44 info: westdust: 로그인 페이지 접속 성공
+2024-06-13 17:03:44 info: westdust: 로그인 성공
+2024-06-13 17:03:44 info: westdust: 모니터링 접속 성공
+2024-06-13 17:03:44 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-13 17:03:44 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-13 17:03:45 info: westDust 초미세먼지 41 개 성공
+2024-06-13 17:03:46 info: westDust 미세먼지 41 개 성공
+2024-06-13 17:03:46 info: westDust 온도 41 개 성공
+2024-06-13 17:03:46 info: westDust 습도 41 개 성공
+2024-06-13 17:04:38 info: ================ crawling logger start =================
+2024-06-13 17:04:38 info: westdust: 로그인 페이지 접속 성공
+2024-06-13 17:04:38 info: westdust: 로그인 성공
+2024-06-13 17:04:38 info: westdust: 모니터링 접속 성공
+2024-06-13 17:04:38 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-13 17:04:38 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-13 17:04:38 info: westDust 초미세먼지 41 개 성공
+2024-06-13 17:04:38 info: westDust 미세먼지 41 개 성공
+2024-06-13 17:04:38 info: westDust 온도 41 개 성공
+2024-06-13 17:04:38 info: westDust 습도 41 개 성공
+2024-06-13 17:04:58 info: ================ crawling logger start =================
+2024-06-13 17:04:58 info: westdust: 로그인 페이지 접속 성공
+2024-06-13 17:04:58 info: westdust: 로그인 성공
+2024-06-13 17:04:58 info: westdust: 모니터링 접속 성공
+2024-06-13 17:04:58 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-13 17:04:58 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-13 17:04:58 info: westDust 초미세먼지 41 개 성공
+2024-06-13 17:04:58 info: westDust 미세먼지 41 개 성공
+2024-06-13 17:04:58 info: westDust 온도 41 개 성공
+2024-06-13 17:04:58 info: westDust 습도 41 개 성공
+2024-06-13 17:05:20 info: ================ crawling logger start =================
+2024-06-13 17:05:20 info: westdust: 로그인 페이지 접속 성공
+2024-06-13 17:05:20 info: westdust: 로그인 성공
+2024-06-13 17:05:20 info: westdust: 모니터링 접속 성공
+2024-06-13 17:05:20 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-13 17:05:20 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-13 17:05:20 info: westDust 초미세먼지 41 개 성공
+2024-06-13 17:05:20 info: westDust 미세먼지 41 개 성공
+2024-06-13 17:05:20 info: westDust 온도 41 개 성공
+2024-06-13 17:05:20 info: westDust 습도 41 개 성공
+2024-06-13 17:05:37 info: ================ crawling logger start =================
+2024-06-13 17:05:37 info: westdust: 로그인 페이지 접속 성공
+2024-06-13 17:05:37 info: westdust: 로그인 성공
+2024-06-13 17:05:37 info: westdust: 모니터링 접속 성공
+2024-06-13 17:05:37 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-13 17:05:37 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-13 17:05:37 info: westDust 초미세먼지 41 개 성공
+2024-06-13 17:05:37 info: westDust 미세먼지 41 개 성공
+2024-06-13 17:05:44 info: ================ crawling logger start =================
+2024-06-13 17:05:44 info: westSmell cookie&csrf success
+2024-06-13 17:05:44 info: westWeather data get success
+2024-06-13 17:05:44 info: westSmell data posting
+2024-06-13 17:05:45 info: westSmell 데이터 전송 성공

@@ -1,0 +1,510 @@
+2024-06-14 09:46:27 info: ================ crawling logger start =================
+2024-06-14 09:46:27 info: westSmell cookie&csrf success
+2024-06-14 09:46:27 info: westWeather cookie&csrf success
+2024-06-14 09:46:27 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 09:46:27 info: namdongMinute : 로그인 페이지 진입
+2024-06-14 09:46:28 info: namdongHour : 로그인 페이지 진입
+2024-06-14 09:46:28 info: namdongMinute : 로그인 성공
+2024-06-14 09:46:28 info: namdongHour : 로그인 성공
+2024-06-14 09:46:28 info: westdust: 로그인 성공
+2024-06-14 09:46:28 info: namdongMinute : 모니터링 페이지 진입
+2024-06-14 09:46:28 info: namdongMinute : 데이터 불러오는 중
+2024-06-14 09:46:28 info: namdongHour : 모니터링 페이지 진입
+2024-06-14 09:46:28 info: namdongHour : 데이터 불러오는중
+2024-06-14 09:46:28 info: westdust: 모니터링 접속 성공
+2024-06-14 09:46:28 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 09:46:28 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 09:46:28 info: 미세먼지 데이버 불러오기 성공 : 초 미세먼지 - 4 개 , 미세먼지- 6 개, 오존- 2 개
+2024-06-14 09:46:28 info: westDust 초미세먼지 41 개 성공
+2024-06-14 09:46:28 info: yeonsu : 로그인 완료
+2024-06-14 09:46:28 info: yeonsu 데이터 :insert 성공
+2024-06-14 09:46:28 info: westDust 미세먼지 41 개 성공
+2024-06-14 09:46:28 info: odcloud 초미세먼지 데이터 : 4 개
+2024-06-14 09:46:28 info: westDust 온도 41 개 성공
+2024-06-14 09:46:28 info: westDust 습도 41 개 성공
+2024-06-14 09:46:28 info: yeonsu 데이터 : 8
+2024-06-14 09:46:28 info: odcloud 미세먼지 데이터 : 6 개
+2024-06-14 09:46:28 info: odcloud 오존 데이터 : 6 개
+2024-06-14 09:46:28 info: westWeather data get success
+2024-06-14 09:46:28 info: westSmell data posting
+2024-06-14 09:46:28 info: westSmell 데이터 전송 성공
+2024-06-14 09:46:29 info: westWeather data get success
+2024-06-14 09:46:29 info: westWeather data posting
+2024-06-14 09:46:29 info: westWeather 데이터 전송 성공
+2024-06-14 09:49:47 info: namdongHour : 데이터 불러오기 완료
+2024-06-14 09:49:47 info: namdongHour: 기상데이터- 22 개 / 악취데이터- 22 개
+2024-06-14 09:49:47 info: namdongHour:fetch 미세먼지  success
+2024-06-14 09:49:47 info: namdongHour:fetch 초미세먼지  success
+2024-06-14 09:49:48 info: namdongMinute Data: 2200 개
+2024-06-14 09:49:48 info: namdongHour:fetch 습도  success
+2024-06-14 09:49:48 info: namdongHour:fetch 온도  success
+2024-06-14 09:49:48 info: namdongHour:fetch 풍향  success
+2024-06-14 09:49:48 info: namdongHour:fetch 풍속  success
+2024-06-14 09:50:11 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-14 09:50:18 info: ================ crawling logger start =================
+2024-06-14 09:55:18 info: westSmell cookie&csrf success
+2024-06-14 09:55:18 info: westWeather cookie&csrf success
+2024-06-14 09:55:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 09:55:18 info: yeonsu : 로그인 완료
+2024-06-14 09:55:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 09:55:18 info: yeonsu 데이터 : 8
+2024-06-14 09:55:18 info: westdust: 로그인 성공
+2024-06-14 09:55:18 info: westdust: 모니터링 접속 성공
+2024-06-14 09:55:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 09:55:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 09:55:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 09:55:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 09:55:19 info: westDust 온도 41 개 성공
+2024-06-14 09:55:19 info: westDust 습도 41 개 성공
+2024-06-14 09:55:19 info: westWeather data get success
+2024-06-14 09:55:19 info: westSmell data posting
+2024-06-14 09:55:19 info: westSmell 데이터 전송 성공
+2024-06-14 09:55:21 info: westWeather data get success
+2024-06-14 09:55:21 info: westWeather data posting
+2024-06-14 09:55:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:00:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:00:18 info: westWeather cookie&csrf success
+2024-06-14 10:00:18 info: westSmell cookie&csrf success
+2024-06-14 10:00:18 info: yeonsu : 로그인 완료
+2024-06-14 10:00:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:00:18 info: westdust: 로그인 성공
+2024-06-14 10:00:18 info: yeonsu 데이터 : 8
+2024-06-14 10:00:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:00:18 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:00:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:00:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:00:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:00:19 info: westDust 온도 41 개 성공
+2024-06-14 10:00:19 info: westDust 습도 41 개 성공
+2024-06-14 10:00:19 info: westWeather data get success
+2024-06-14 10:00:19 info: westSmell data posting
+2024-06-14 10:00:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:00:20 info: westWeather data get success
+2024-06-14 10:00:20 info: westWeather data posting
+2024-06-14 10:00:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:05:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:05:18 info: westSmell cookie&csrf success
+2024-06-14 10:05:18 info: westWeather cookie&csrf success
+2024-06-14 10:05:18 info: yeonsu : 로그인 완료
+2024-06-14 10:05:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:05:18 info: westdust: 로그인 성공
+2024-06-14 10:05:18 info: yeonsu 데이터 : 8
+2024-06-14 10:05:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:05:18 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:05:18 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:05:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:05:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:05:19 info: westDust 온도 41 개 성공
+2024-06-14 10:05:19 info: westDust 습도 41 개 성공
+2024-06-14 10:05:19 info: westWeather data get success
+2024-06-14 10:05:19 info: westSmell data posting
+2024-06-14 10:05:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:05:20 info: westWeather data get success
+2024-06-14 10:05:20 info: westWeather data posting
+2024-06-14 10:05:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:10:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:10:18 info: westSmell cookie&csrf success
+2024-06-14 10:10:18 info: westWeather cookie&csrf success
+2024-06-14 10:10:18 info: yeonsu : 로그인 완료
+2024-06-14 10:10:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:10:18 info: westdust: 로그인 성공
+2024-06-14 10:10:18 info: yeonsu 데이터 : 8
+2024-06-14 10:10:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:10:18 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:10:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:10:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:10:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:10:19 info: westDust 온도 41 개 성공
+2024-06-14 10:10:19 info: westDust 습도 41 개 성공
+2024-06-14 10:10:20 info: westWeather data get success
+2024-06-14 10:10:20 info: westSmell data posting
+2024-06-14 10:10:20 info: westSmell 데이터 전송 성공
+2024-06-14 10:10:21 info: westWeather data get success
+2024-06-14 10:10:21 info: westWeather data posting
+2024-06-14 10:10:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:15:18 info: westSmell cookie&csrf success
+2024-06-14 10:15:18 info: westWeather cookie&csrf success
+2024-06-14 10:15:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:15:18 info: yeonsu : 로그인 완료
+2024-06-14 10:15:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:15:18 info: yeonsu 데이터 : 8
+2024-06-14 10:15:18 info: westdust: 로그인 성공
+2024-06-14 10:15:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:15:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:15:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:15:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:15:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:15:19 info: westDust 온도 41 개 성공
+2024-06-14 10:15:19 info: westDust 습도 41 개 성공
+2024-06-14 10:15:19 info: westWeather data get success
+2024-06-14 10:15:19 info: westSmell data posting
+2024-06-14 10:15:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:15:20 info: westWeather data get success
+2024-06-14 10:15:20 info: westWeather data posting
+2024-06-14 10:15:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:20:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:20:18 info: westSmell cookie&csrf success
+2024-06-14 10:20:18 info: westWeather cookie&csrf success
+2024-06-14 10:20:18 info: yeonsu : 로그인 완료
+2024-06-14 10:20:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:20:18 info: namdongMinute : 로그인 페이지 진입
+2024-06-14 10:20:18 info: namdongHour : 로그인 페이지 진입
+2024-06-14 10:20:18 info: namdongMinute : 로그인 성공
+2024-06-14 10:20:18 info: namdongHour : 로그인 성공
+2024-06-14 10:20:18 info: yeonsu 데이터 : 8
+2024-06-14 10:20:18 info: namdongMinute : 모니터링 페이지 진입
+2024-06-14 10:20:18 info: namdongMinute : 데이터 불러오는 중
+2024-06-14 10:20:18 info: westdust: 로그인 성공
+2024-06-14 10:20:18 info: namdongHour : 모니터링 페이지 진입
+2024-06-14 10:20:18 info: namdongHour : 데이터 불러오는중
+2024-06-14 10:20:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:20:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:20:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:20:19 info: 미세먼지 데이버 불러오기 성공 : 초 미세먼지 - 6 개 , 미세먼지- 2 개, 오존- 4 개
+2024-06-14 10:20:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:20:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:20:19 info: westDust 온도 41 개 성공
+2024-06-14 10:20:19 info: odcloud 초미세먼지 데이터 : 6 개
+2024-06-14 10:20:19 info: westDust 습도 41 개 성공
+2024-06-14 10:20:19 info: odcloud 미세먼지 데이터 : 2 개
+2024-06-14 10:20:19 info: odcloud 오존 데이터 : 2 개
+2024-06-14 10:20:20 info: westWeather data get success
+2024-06-14 10:20:20 info: westSmell data posting
+2024-06-14 10:20:20 info: westSmell 데이터 전송 성공
+2024-06-14 10:20:20 info: westWeather data get success
+2024-06-14 10:20:20 info: westWeather data posting
+2024-06-14 10:20:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:23:14 info: namdongMinute Data: 2090 개
+2024-06-14 10:23:15 info: namdongHour : 데이터 불러오기 완료
+2024-06-14 10:23:15 info: namdongHour: 기상데이터- 22 개 / 악취데이터- 22 개
+2024-06-14 10:23:15 info: namdongHour:fetch 미세먼지  success
+2024-06-14 10:23:16 info: namdongHour:fetch 초미세먼지  success
+2024-06-14 10:23:16 info: namdongHour:fetch 습도  success
+2024-06-14 10:23:16 info: namdongHour:fetch 온도  success
+2024-06-14 10:23:16 info: namdongHour:fetch 풍향  success
+2024-06-14 10:23:17 info: namdongHour:fetch 풍속  success
+2024-06-14 10:23:33 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-14 10:25:18 info: westWeather cookie&csrf success
+2024-06-14 10:25:18 info: westSmell cookie&csrf success
+2024-06-14 10:25:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:25:18 info: yeonsu : 로그인 완료
+2024-06-14 10:25:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:25:18 info: westdust: 로그인 성공
+2024-06-14 10:25:18 info: yeonsu 데이터 : 8
+2024-06-14 10:25:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:25:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:25:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:25:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:25:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:25:19 info: westDust 온도 41 개 성공
+2024-06-14 10:25:19 info: westDust 습도 41 개 성공
+2024-06-14 10:25:20 info: westWeather data get success
+2024-06-14 10:25:20 info: westSmell data posting
+2024-06-14 10:25:20 info: westSmell 데이터 전송 성공
+2024-06-14 10:25:21 info: westWeather data get success
+2024-06-14 10:25:21 info: westWeather data posting
+2024-06-14 10:25:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:30:18 info: westSmell cookie&csrf success
+2024-06-14 10:30:18 info: westWeather cookie&csrf success
+2024-06-14 10:30:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:30:18 info: yeonsu : 로그인 완료
+2024-06-14 10:30:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:30:18 info: yeonsu 데이터 : 8
+2024-06-14 10:30:18 info: westdust: 로그인 성공
+2024-06-14 10:30:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:30:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:30:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:30:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:30:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:30:19 info: westDust 온도 41 개 성공
+2024-06-14 10:30:19 info: westDust 습도 41 개 성공
+2024-06-14 10:30:19 info: westWeather data get success
+2024-06-14 10:30:19 info: westSmell data posting
+2024-06-14 10:30:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:30:20 info: westWeather data get success
+2024-06-14 10:30:20 info: westWeather data posting
+2024-06-14 10:30:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:35:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:35:18 info: westSmell cookie&csrf success
+2024-06-14 10:35:18 info: westWeather cookie&csrf success
+2024-06-14 10:35:18 info: yeonsu : 로그인 완료
+2024-06-14 10:35:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:35:18 info: yeonsu 데이터 : 8
+2024-06-14 10:35:18 info: westdust: 로그인 성공
+2024-06-14 10:35:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:35:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:35:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:35:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:35:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:35:19 info: westDust 온도 41 개 성공
+2024-06-14 10:35:19 info: westDust 습도 41 개 성공
+2024-06-14 10:35:20 info: westWeather data get success
+2024-06-14 10:35:20 info: westSmell data posting
+2024-06-14 10:35:20 info: westSmell 데이터 전송 성공
+2024-06-14 10:35:21 info: westWeather data get success
+2024-06-14 10:35:21 info: westWeather data posting
+2024-06-14 10:35:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:40:18 info: westWeather cookie&csrf success
+2024-06-14 10:40:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:40:18 info: westSmell cookie&csrf success
+2024-06-14 10:40:18 info: yeonsu : 로그인 완료
+2024-06-14 10:40:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:40:18 info: westdust: 로그인 성공
+2024-06-14 10:40:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:40:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:40:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:40:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:40:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:40:19 info: westDust 온도 41 개 성공
+2024-06-14 10:40:19 info: westDust 습도 41 개 성공
+2024-06-14 10:40:19 info: yeonsu 데이터 : 8
+2024-06-14 10:40:19 info: westWeather data get success
+2024-06-14 10:40:19 info: westSmell data posting
+2024-06-14 10:40:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:40:21 info: westWeather data get success
+2024-06-14 10:40:21 info: westWeather data posting
+2024-06-14 10:40:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:45:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:45:18 info: westWeather cookie&csrf success
+2024-06-14 10:45:18 info: westSmell cookie&csrf success
+2024-06-14 10:45:18 info: yeonsu : 로그인 완료
+2024-06-14 10:45:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:45:18 info: westdust: 로그인 성공
+2024-06-14 10:45:18 info: yeonsu 데이터 : 8
+2024-06-14 10:45:18 info: westdust: 모니터링 접속 성공
+2024-06-14 10:45:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:45:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:45:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:45:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:45:19 info: westDust 온도 41 개 성공
+2024-06-14 10:45:19 info: westDust 습도 41 개 성공
+2024-06-14 10:45:19 info: westWeather data get success
+2024-06-14 10:45:19 info: westSmell data posting
+2024-06-14 10:45:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:45:20 info: westWeather data get success
+2024-06-14 10:45:20 info: westWeather data posting
+2024-06-14 10:45:20 info: westWeather 데이터 전송 성공
+2024-06-14 10:50:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:50:18 info: westWeather cookie&csrf success
+2024-06-14 10:50:18 info: westSmell cookie&csrf success
+2024-06-14 10:50:19 info: westdust: 로그인 성공
+2024-06-14 10:50:19 info: 미세먼지 데이버 불러오기 성공 : 초 미세먼지 - 2 개 , 미세먼지- 4 개, 오존- 6 개
+2024-06-14 10:50:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:50:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:50:19 info: odcloud 초미세먼지 데이터 : 2 개
+2024-06-14 10:50:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:50:19 info: odcloud 미세먼지 데이터 : 4 개
+2024-06-14 10:50:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:50:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:50:19 info: westDust 온도 41 개 성공
+2024-06-14 10:50:19 info: odcloud 오존 데이터 : 4 개
+2024-06-14 10:50:19 info: westDust 습도 41 개 성공
+2024-06-14 10:50:19 info: yeonsu : 로그인 완료
+2024-06-14 10:50:19 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:50:19 info: yeonsu 데이터 : 8
+2024-06-14 10:50:19 info: namdongMinute : 로그인 페이지 진입
+2024-06-14 10:50:19 info: namdongHour : 로그인 페이지 진입
+2024-06-14 10:50:19 info: namdongMinute : 로그인 성공
+2024-06-14 10:50:20 info: namdongHour : 로그인 성공
+2024-06-14 10:50:20 info: namdongMinute : 모니터링 페이지 진입
+2024-06-14 10:50:20 info: namdongMinute : 데이터 불러오는 중
+2024-06-14 10:50:20 info: namdongHour : 모니터링 페이지 진입
+2024-06-14 10:50:20 info: namdongHour : 데이터 불러오는중
+2024-06-14 10:50:20 info: westWeather data get success
+2024-06-14 10:50:20 info: westSmell data posting
+2024-06-14 10:50:20 info: westSmell 데이터 전송 성공
+2024-06-14 10:50:21 info: westWeather data get success
+2024-06-14 10:50:21 info: westWeather data posting
+2024-06-14 10:50:21 info: westWeather 데이터 전송 성공
+2024-06-14 10:53:23 info: namdongMinute Data: 2090 개
+2024-06-14 10:53:25 info: namdongHour : 데이터 불러오기 완료
+2024-06-14 10:53:25 info: namdongHour: 기상데이터- 22 개 / 악취데이터- 22 개
+2024-06-14 10:53:26 info: namdongHour:fetch 미세먼지  success
+2024-06-14 10:53:27 info: namdongHour:fetch 초미세먼지  success
+2024-06-14 10:53:27 info: namdongHour:fetch 습도  success
+2024-06-14 10:53:28 info: namdongHour:fetch 온도  success
+2024-06-14 10:53:28 info: namdongHour:fetch 풍향  success
+2024-06-14 10:53:29 info: namdongHour:fetch 풍속  success
+2024-06-14 10:53:51 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-14 10:55:18 info: westSmell cookie&csrf success
+2024-06-14 10:55:18 info: westWeather cookie&csrf success
+2024-06-14 10:55:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 10:55:18 info: yeonsu : 로그인 완료
+2024-06-14 10:55:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 10:55:18 info: yeonsu 데이터 : 8
+2024-06-14 10:55:19 info: westdust: 로그인 성공
+2024-06-14 10:55:19 info: westdust: 모니터링 접속 성공
+2024-06-14 10:55:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 10:55:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 10:55:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 10:55:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 10:55:19 info: westDust 온도 41 개 성공
+2024-06-14 10:55:19 info: westDust 습도 41 개 성공
+2024-06-14 10:55:19 info: westWeather data get success
+2024-06-14 10:55:19 info: westSmell data posting
+2024-06-14 10:55:19 info: westSmell 데이터 전송 성공
+2024-06-14 10:55:20 info: westWeather data get success
+2024-06-14 10:55:20 info: westWeather data posting
+2024-06-14 10:55:20 info: westWeather 데이터 전송 성공
+2024-06-14 11:00:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:00:18 info: westWeather cookie&csrf success
+2024-06-14 11:00:18 info: westSmell cookie&csrf success
+2024-06-14 11:00:18 info: yeonsu : 로그인 완료
+2024-06-14 11:00:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:00:19 info: westdust: 로그인 성공
+2024-06-14 11:00:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:00:19 info: yeonsu 데이터 : 8
+2024-06-14 11:00:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:00:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:00:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:00:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:00:19 info: westDust 온도 41 개 성공
+2024-06-14 11:00:19 info: westDust 습도 41 개 성공
+2024-06-14 11:00:19 info: westWeather data get success
+2024-06-14 11:00:19 info: westSmell data posting
+2024-06-14 11:00:20 info: westSmell 데이터 전송 성공
+2024-06-14 11:00:20 info: westWeather data get success
+2024-06-14 11:00:20 info: westWeather data posting
+2024-06-14 11:00:20 info: westWeather 데이터 전송 성공
+2024-06-14 11:05:18 info: westSmell cookie&csrf success
+2024-06-14 11:05:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:05:18 info: westWeather cookie&csrf success
+2024-06-14 11:05:18 info: yeonsu : 로그인 완료
+2024-06-14 11:05:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:05:19 info: yeonsu 데이터 : 8
+2024-06-14 11:05:19 info: westdust: 로그인 성공
+2024-06-14 11:05:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:05:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:05:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:05:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:05:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:05:19 info: westDust 온도 41 개 성공
+2024-06-14 11:05:19 info: westDust 습도 41 개 성공
+2024-06-14 11:05:20 info: westWeather data get success
+2024-06-14 11:05:20 info: westSmell data posting
+2024-06-14 11:05:20 info: westSmell 데이터 전송 성공
+2024-06-14 11:05:21 info: westWeather data get success
+2024-06-14 11:05:21 info: westWeather data posting
+2024-06-14 11:05:21 info: westWeather 데이터 전송 성공
+2024-06-14 11:10:18 info: westSmell cookie&csrf success
+2024-06-14 11:10:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:10:18 info: westWeather cookie&csrf success
+2024-06-14 11:10:19 info: yeonsu : 로그인 완료
+2024-06-14 11:10:19 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:10:19 info: yeonsu 데이터 : 8
+2024-06-14 11:10:19 info: westdust: 로그인 성공
+2024-06-14 11:10:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:10:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:10:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:10:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:10:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:10:19 info: westDust 온도 41 개 성공
+2024-06-14 11:10:19 info: westDust 습도 41 개 성공
+2024-06-14 11:10:19 info: westWeather data get success
+2024-06-14 11:10:19 info: westSmell data posting
+2024-06-14 11:10:19 info: westSmell 데이터 전송 성공
+2024-06-14 11:10:20 info: westWeather data get success
+2024-06-14 11:10:20 info: westWeather data posting
+2024-06-14 11:10:20 info: westWeather 데이터 전송 성공
+2024-06-14 11:15:18 info: westSmell cookie&csrf success
+2024-06-14 11:15:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:15:18 info: westWeather cookie&csrf success
+2024-06-14 11:15:18 info: yeonsu : 로그인 완료
+2024-06-14 11:15:18 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:15:19 info: yeonsu 데이터 : 8
+2024-06-14 11:15:19 info: westdust: 로그인 성공
+2024-06-14 11:15:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:15:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:15:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:15:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:15:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:15:19 info: westDust 온도 41 개 성공
+2024-06-14 11:15:19 info: westDust 습도 41 개 성공
+2024-06-14 11:15:20 info: westWeather data get success
+2024-06-14 11:15:20 info: westSmell data posting
+2024-06-14 11:15:20 info: westSmell 데이터 전송 성공
+2024-06-14 11:15:21 info: westWeather data get success
+2024-06-14 11:15:21 info: westWeather data posting
+2024-06-14 11:15:21 info: westWeather 데이터 전송 성공
+2024-06-14 11:20:18 info: namdongHour : 로그인 페이지 진입
+2024-06-14 11:20:18 info: namdongMinute : 로그인 페이지 진입
+2024-06-14 11:20:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:20:18 info: namdongHour : 로그인 성공
+2024-06-14 11:20:18 info: namdongMinute : 로그인 성공
+2024-06-14 11:20:18 info: westWeather cookie&csrf success
+2024-06-14 11:20:18 info: westSmell cookie&csrf success
+2024-06-14 11:20:18 info: namdongHour : 모니터링 페이지 진입
+2024-06-14 11:20:18 info: namdongHour : 데이터 불러오는중
+2024-06-14 11:20:18 info: namdongMinute : 모니터링 페이지 진입
+2024-06-14 11:20:18 info: namdongMinute : 데이터 불러오는 중
+2024-06-14 11:20:19 info: yeonsu : 로그인 완료
+2024-06-14 11:20:19 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:20:19 info: yeonsu 데이터 : 8
+2024-06-14 11:20:19 info: westdust: 로그인 성공
+2024-06-14 11:20:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:20:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:20:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:20:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:20:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:20:19 info: westDust 온도 41 개 성공
+2024-06-14 11:20:19 info: westDust 습도 41 개 성공
+2024-06-14 11:20:19 info: westWeather data get success
+2024-06-14 11:20:19 info: westSmell data posting
+2024-06-14 11:20:19 info: westSmell 데이터 전송 성공
+2024-06-14 11:20:20 info: westWeather data get success
+2024-06-14 11:20:20 info: westWeather data posting
+2024-06-14 11:20:20 info: westWeather 데이터 전송 성공
+2024-06-14 11:20:44 info: 미세먼지 데이버 불러오기 성공 : 초 미세먼지 - 4 개 , 미세먼지- 8 개, 오존- 12 개
+2024-06-14 11:20:44 info: odcloud 초미세먼지 데이터 : 4 개
+2024-06-14 11:20:44 info: odcloud 미세먼지 데이터 : 8 개
+2024-06-14 11:20:44 info: odcloud 오존 데이터 : 8 개
+2024-06-14 11:23:28 info: namdongMinute Data: 2090 개
+2024-06-14 11:23:28 info: namdongHour : 데이터 불러오기 완료
+2024-06-14 11:23:28 info: namdongHour: 기상데이터- 22 개 / 악취데이터- 22 개
+2024-06-14 11:23:29 info: namdongHour:fetch 미세먼지  success
+2024-06-14 11:23:30 info: namdongHour:fetch 초미세먼지  success
+2024-06-14 11:23:30 info: namdongHour:fetch 습도  success
+2024-06-14 11:23:31 info: namdongHour:fetch 온도  success
+2024-06-14 11:23:32 info: namdongHour:fetch 풍향  success
+2024-06-14 11:23:33 info: namdongHour:fetch 풍속  success
+2024-06-14 11:23:51 info: namdongMinute: 남동구 5분 간격 데이터 성공
+2024-06-14 11:25:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:25:18 info: westSmell cookie&csrf success
+2024-06-14 11:25:18 info: westWeather cookie&csrf success
+2024-06-14 11:25:19 info: westdust: 로그인 성공
+2024-06-14 11:25:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:25:19 info: yeonsu : 로그인 완료
+2024-06-14 11:25:19 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:25:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:25:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:25:19 info: yeonsu 데이터 : 8
+2024-06-14 11:25:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:25:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:25:19 info: westDust 온도 41 개 성공
+2024-06-14 11:25:19 info: westDust 습도 41 개 성공
+2024-06-14 11:25:20 info: westWeather data get success
+2024-06-14 11:25:20 info: westSmell data posting
+2024-06-14 11:25:20 info: westSmell 데이터 전송 성공
+2024-06-14 11:25:21 info: westWeather data get success
+2024-06-14 11:25:21 info: westWeather data posting
+2024-06-14 11:25:21 info: westWeather 데이터 전송 성공
+2024-06-14 11:30:18 info: westdust: 로그인 페이지 접속 성공
+2024-06-14 11:30:18 info: westWeather cookie&csrf success
+2024-06-14 11:30:18 info: westSmell cookie&csrf success
+2024-06-14 11:30:19 info: yeonsu : 로그인 완료
+2024-06-14 11:30:19 info: yeonsu 데이터 :insert 성공
+2024-06-14 11:30:19 info: yeonsu 데이터 : 8
+2024-06-14 11:30:19 info: westdust: 로그인 성공
+2024-06-14 11:30:19 info: westdust: 모니터링 접속 성공
+2024-06-14 11:30:19 info: westdust: 실시간 미세먼지 페이지 접속 성공
+2024-06-14 11:30:19 info: westdust: 실시간 미세먼지 데이터 불러오기 성공
+2024-06-14 11:30:19 info: westDust 초미세먼지 41 개 성공
+2024-06-14 11:30:19 info: westDust 미세먼지 41 개 성공
+2024-06-14 11:30:19 info: westDust 온도 41 개 성공
+2024-06-14 11:30:19 info: westDust 습도 41 개 성공
+2024-06-14 11:30:20 info: westWeather data get success
+2024-06-14 11:30:20 info: westSmell data posting
+2024-06-14 11:30:20 info: westSmell 데이터 전송 성공
+2024-06-14 11:30:21 info: westWeather data get success
+2024-06-14 11:30:21 info: westWeather data posting
+2024-06-14 11:30:21 info: westWeather 데이터 전송 성공

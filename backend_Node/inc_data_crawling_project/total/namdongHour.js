@@ -37,22 +37,22 @@ let OWSInsert = [];
 exports.namdongHour = () => {
     const loginUrl = new URL('http://121.137.142.108:8089/login');
    
-    // const now = new Date()
-    // const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
-    // const koreaTimeDiff = 9 * 120 * 60 * 1000
-    // const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
-    // const update = koreaNow.replaceAll('T', ' ')
-    // const Nows = update.replaceAll('Z', ' ').substring(0, 10);
+    const now = new Date()
+    const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
+    const koreaTimeDiff = 9 * 120 * 60 * 1000
+    const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
+    const update = koreaNow.replaceAll('T', ' ')
+    const Nows = update.replaceAll('Z', ' ').substring(0, 10);
 
 
 
     //bems 용
-    const now = new Date()
-    const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
-    const koreaTimeDiff = 9 * 120 * 60
-    const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
-    const update = koreaNow.replaceAll('T', ' ')
-    const Nows = update.replaceAll('Z', ' ').substring(0, 10);
+    // const now = new Date()
+    // const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
+    // const koreaTimeDiff = 9 * 120 * 60
+    // const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
+    // const update = koreaNow.replaceAll('T', ' ')
+    // const Nows = update.replaceAll('Z', ' ').substring(0, 10);
 
 
 
@@ -241,6 +241,8 @@ exports.namdongHour = () => {
 
 
         let dustNode = [];
+
+ 
         dust.map((item, index01) => {
             dustNode.push([...item, { node_id: index01 + 1 }]);
             let Time = (dustNode[index01][0].DataDateTime).slice(5, 6);
@@ -273,6 +275,8 @@ exports.namdongHour = () => {
 
        
         let weatherNode = [];
+
+        console.log(weatherNode);
         weather.map((item01, index01) => {
             weatherNode.push([...item01, { node_id: index01 + 1 }]);
             let Time = (weatherNode[index01][0].DataDateTime).slice(5, 6);

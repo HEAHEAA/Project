@@ -105,6 +105,8 @@ exports.odclouds = async () => {
     }
     Promise.all(promises)
         .then(async () => {
+
+            console.log(PM10);
             logger.info(`미세먼지 데이버 불러오기 성공 : 초 미세먼지 - ${PM25.length} 개 , 미세먼지- ${PM10.length} 개, 오존- ${O3.length} 개`);
             //PM25
             await fetch(`http://${apis.apiUrl}/api/dust/forecast/PM25`, {

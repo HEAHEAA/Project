@@ -7,7 +7,9 @@ const namdongHour = require('./total/namdongHour');
 const odcloud = require('./total/odcloud');
 const logger = require('./log/logger');
 
+
 //시작 로그
+
 logger.info(`================ crawling logger start =================`);
 
 
@@ -18,7 +20,6 @@ setInterval(()=>yeonsu.yeonsu(), 60000 * 5);
 setInterval(()=>odcloud.odclouds(), 60000 * 30);
 setInterval(()=>namdongFive.namdongMinute(), 60000 * 30);
 setInterval(()=>namdongHour.namdongHour(), 60000 * 30);
-
 
 
 // westDust.westDust();

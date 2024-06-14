@@ -1,5 +1,5 @@
 node_modules/
-logger_file/
+package-lock.json
 apiPort.js
-key.js
 dustNodeData.js
+key.js

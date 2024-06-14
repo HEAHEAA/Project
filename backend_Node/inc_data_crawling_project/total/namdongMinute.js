@@ -30,20 +30,20 @@ let arrayDefaultData = [
 exports.namdongMinute = () => {
     const loginUrl = new URL('http://121.137.142.108:8089/login');
 
-    // const now = new Date()
-    // const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
-    // const koreaTimeDiff = 9 * 120 * 60 * 1000
-    // const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
-    // const update = koreaNow.replaceAll('T', ' ')
-    // const Nows = update.replaceAll('Z', ' ').substring(0, 10);
-
-    //bems 용
     const now = new Date()
     const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
-    const koreaTimeDiff = 9 * 120 * 60
+    const koreaTimeDiff = 9 * 120 * 60 * 1000
     const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
     const update = koreaNow.replaceAll('T', ' ')
     const Nows = update.replaceAll('Z', ' ').substring(0, 10);
+
+    //bems 용
+    // const now = new Date()
+    // const utcNow = now.getTime() + now.getTimezoneOffset() * 60 * 1000
+    // const koreaTimeDiff = 9 * 120 * 60
+    // const koreaNow = new Date(utcNow + koreaTimeDiff).toISOString()
+    // const update = koreaNow.replaceAll('T', ' ')
+    // const Nows = update.replaceAll('Z', ' ').substring(0, 10);
 
     //헤더값 추출
     const extractJSession = (headers) => {
@@ -214,6 +214,8 @@ exports.namdongMinute = () => {
         session = await minuteData(session, privUrl)
        
         let minuteDatas = JSON.parse(session);
+
+        
       
         let smell = [];
         let SmellData = [];
@@ -223,6 +225,10 @@ exports.namdongMinute = () => {
                 smell.push(minuteDatas.chartDataList[`${el.id}`]);
             });
            
+            console.log(smell);
+
+
+
             for (let i = 0; i < smell.length; i++) {
                 for (let j = 0; j < smell[i].length; j++) {
                     SmellData.push({
@@ -259,6 +265,7 @@ exports.namdongMinute = () => {
                 })
             });
             logger.info(`namdongMinute Data: ${smellInsert.length} 개`);
+            
 
             for (let i = 0; i < smellInsert.length; i++) {
                 await new Promise((resolve, reject) => {
