@@ -1,0 +1,67 @@
+.bid-section{
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    margin-top: 5vh;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+}
+.bid-title{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.bid-title h1{
+    text-align: left;
+    font-size: 40px;
+}
+.bid-title h1 span{
+    text-align: left;
+    font-size: 40px;
+    text-emphasis-style: dot;
+    color: #1e6fda;
+}
+
+.bid-title02{
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+}
+.bid-title02 h1{
+  text-align: left;
+  font-size: 40px;
+}
+.bid-title02 h1 span{
+  text-align: left;
+  font-size: 40px;
+  text-emphasis-style: dot;
+  color: #209495;
+}
+
+.bid-title03{
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+}
+.bid-title03 h1{
+  text-align: left;
+  font-size: 40px;
+}
+.bid-title03 h1 span{
+  text-align: left;
+  font-size: 40px;
+  text-emphasis-style: dot;
+  color: #6f2892;
+}
+
+
+.bid-board{
+    width: 90%;
+    height: 75vh;
+    /*background-color: #1e6fda;*/
+    margin-left: 5%;
+    overflow: auto;
+    border-top: 1px solid #dadada;
+}

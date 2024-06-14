@@ -1,0 +1,56 @@
+.main-container section:nth-child(1) div{
+    /*background-color: #2f3241;*/
+    font-family: SUITE-Bold, serif;
+    width: 100%;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-top: 300px;
+  color: white;
+}
+.main-container section:nth-child(2){
+    /*background-color: #2f3241;*/
+    width: 100%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.main-container section:nth-child(2) div{
+    /*background-color: #1ab4a1;*/
+    background-image: linear-gradient(to top, #17509b, #1e6fda);
+    /*background-image: linear-gradient(to top, #6938b2, #6938b2);*/
+
+    width: 50%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.main-container section:nth-child(3){
+    width: 50%;
+    margin-left: 25%;
+    text-align: right;
+    font-size: 40px;
+    list-style-type: none;
+}
+/*.main-container section:nth-child(3) ul{*/
+/*    font-family: LINE-KR-Bd, serif;*/
+/*    list-style-type: none;*/
+/*    line-height: 80px;*/
+/*    font-weight: bolder;*/
+/*    !*color: #2f3241;*!*/
+/*  color: #ffdf32;*/
+/*}*/
+
+.main-container section:nth-child(3) ul{
+  width: 45%;
+  height: 100%;
+  /*background-color: #ff7676;*/
+  color: #ffdf32;
+  float: left;
+  font-family: LINE-KR-Bd, serif;
+  list-style-type: none;
+  line-height: 70px;
+  font-weight: bolder;
+}

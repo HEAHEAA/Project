@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/host.css">
+</head>
+
+<body>
+<div class="content">
+    <button class="content-btn" id="btn01">다도해방안내소(B1F~2F)</button>
+    <button class="content-btn" id="btn02">더함파크(B1~4F)</button>
+    <button class="content-btn" id="btn03">북한산(2F)</button>
+    <button class="content-btn" id="btn04">지리산함양분소(2F)</button>
+    <button class="content-btn" id="btn05">태백산(3F)</button>
+    <button class="content-btn" id="btn06">동산대학교(B1F~8F)</button>
+    <button class="content-btn" id="btn07">기술연구소(B1F~6F)</button>
+    <button class="content-btn" id="btn08">녹예연(1F~PH)</button>
+
+
+    <div class="body-content-side" id="sidebar">
+        <div id="floors"></div>
+        <img src="./assets/img/delete.png" alt="delete" onclick="Cleanup()"/>
+    </div>
+
+    <div class="body-content">
+        <!-- iframe에 뷰어를 로드합니다. 로드가 완료된 뷰어는 호스트로 status 값이 'ready'인 bv-report-status 메시지를 전송합니다. -->
+        <iframe id="building-viewer" src="/host.html"></iframe>
+    </div>
+</div>
+
+</div>
+
+<div class="foot">
+    <button onclick="ShowAllFloors();" id="All-building">
+        <div class="foot-img">
+            <img src="./assets/img/building02.png" alt="image"/>
+        </div>
+        건물 전체보기
+    </button>
+    <button onclick="SetPoiStatus('normal', '');">
+        <div class="foot-img">
+            <img src="./assets/img/2fLoad.png" alt="image"/>
+        </div>
+        2F POI평시
+    </button>
+
+    <button onclick="SetPoiStatus('alarm', '알람')">
+        <div class="foot-img">
+            <img src="./assets/img/alarm.png" alt="image"/>
+        </div>
+        2F POI 알람
+    </button>
+    <button onclick="SetPoiStatus('off', '꺼짐')">
+        <div class="foot-img">
+            <img src="./assets/img/off.png" alt="image"/>
+        </div>
+        2F POI 끔
+    </button>
+</div>
+
+<div id="message">
+    <div class="message-content">
+        <textarea id="message-sent" class="message-text" style="width:350px; height: 50px; float: left;display: none"
+                  readonly></textarea>
+    </div>
+
+    <div class="message-content">
+          <textarea
+                  id="message-received"
+                  class="message-text"
+                  style="width:350px; height: 50px; float: left;display: none"
+                  readonly
+          ></textarea>
+    </div>
+
+
+</div>
+
+
+<script>
+
+    // 뷰어->호스트 메시지 수신 이벤트 처리기 등록
+    window.addEventListener('message', (event) => {
+        const messageReceived = document.getElementById('message-received');
+        messageReceived.textContent = JSON.stringify(event.data, null, 1);
+        const message = event.data;
+
+        switch (message.type) {
+            case 'bv-load-building-result': {
+                const floorsElem = document.getElementById('floors');
+                floorsElem.innerHTML = '';
+
+                message.floors.forEach((floor) => {
+                    const floorDiv = document.createElement('div');
+
+                    const floorCheckbox = document.createElement('input');
+                    floorCheckbox.type = 'checkbox';
+                    floorCheckbox.id = `floor-${floor.id}`;
+                    floorCheckbox.textContent = floor.name;
+                    floorCheckbox.onchange = (ev) => {
+                        SetFloorVisible(floor.id, floorCheckbox.checked === true);
+                    }
+                    floorDiv.appendChild(floorCheckbox);
+                    const label = document.createElement('label');
+                    label.setAttribute('for', `floor-${floor.id}`);
+                    label.textContent = floor.name;
+                    floorDiv.appendChild(label);
+
+                    floorsElem.appendChild(floorDiv);
+                });
+            }
+                break;
+        }
+    }, false);
+
+    // 호스트->뷰어 메시지 전송
+
+
+    function SendMessage(message) {
+        const messageSent = document.getElementById("message-sent");
+        messageSent.textContent = JSON.stringify(message, null, 1);
+        const buildingViewer = document.getElementById("building-viewer");
+        buildingViewer.contentWindow.postMessage(message, "*");
+        console.log(message);
+    }
+
+
+    // 뷰어 초기화 요청
+    // 호스트는 반드시 뷰어로부터 ready 상태를 수신한 이후에 뷰어 초기화를 요청해야 합니다.
+    // 뷰어는 초기화 완료 후 호스트로 initialized 상태를 전송합니다.
+    function InitViewer() {
+        SendMessage({
+            type: "bv-init",
+        });
+    }
+
+
+    window.onload = function () {
+        //1. 다도해방안내소
+        if (window.location.pathname === '/') {
+            document.getElementById('btn01').className = 'content-btnHover';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+            InitViewer();
+            LoadXml("./buildings/Dado.xml");
+        }
+
+        //2. 더함파크
+        if (window.location.pathname === '/theHam') {
+            document.getElementById('btn02').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/theHamPark.xml");
+        }
+
+        //3, 북한산
+        if (window.location.pathname === '/north') {
+            document.getElementById('btn03').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/northMounth.xml");
+        }
+
+
+        //4. 지리산함양분소
+        if (window.location.pathname === '/jiri') {
+            document.getElementById('btn04').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/Jirisan.xml");
+        }
+
+        //5. 태백산
+        if (window.location.pathname === '/taback') {
+            document.getElementById('btn05').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/tabacksan.xml");
+        }
+
+        //6. 동산대학교
+        if (window.location.pathname === '/dongsan') {
+            document.getElementById('btn06').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/Dongsan.xml");
+        }
+
+        //6. 기술연구소
+        if (window.location.pathname === '/research') {
+            document.getElementById('btn07').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn08').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/Research.xml");
+        }
+
+        //6. 녹예연
+        if (window.location.pathname === '/nokyeyeon') {
+            document.getElementById('btn08').className = 'content-btnHover';
+            document.getElementById('btn01').className = 'content-btn';
+            document.getElementById('btn02').className = 'content-btn';
+            document.getElementById('btn03').className = 'content-btn';
+            document.getElementById('btn04').className = 'content-btn';
+            document.getElementById('btn05').className = 'content-btn';
+            document.getElementById('btn06').className = 'content-btn';
+            document.getElementById('btn07').className = 'content-btn';
+
+            InitViewer();
+            LoadXml("./buildings/NokYeyeon.xml");
+        }
+
+    }
+
+
+    //1. 다도
+    document.getElementById('btn01').onclick = function () {
+        location.replace('/');
+    }
+    //2. 더함파크
+    document.getElementById('btn02').onclick = function () {
+        location.replace('/theHam');
+    }
+    //3. 북한산
+    document.getElementById('btn03').onclick = function () {
+        location.replace('/north');
+    }
+    //3. 지리산함양분소
+    document.getElementById('btn04').onclick = function () {
+        location.replace('/jiri');
+    }
+    //4. 태백산
+    document.getElementById('btn05').onclick = function () {
+        location.replace('/taback');
+    }
+    //5. 동산대학교
+    document.getElementById('btn06').onclick = function () {
+        location.replace('/dongsan');
+    }
+    //6. 기술연구소
+    document.getElementById('btn07').onclick = function () {
+        location.replace('/research');
+    }
+    //7. 녹예연
+    document.getElementById('btn08').onclick = function () {
+        location.replace('/nokyeyeon');
+    }
+
+
+    // 건물 XML 로드 요청
+    // 뷰어는 XML 로드 완료 후 호스트로 bv-load-building-result 메시지를 전송합니다.
+    function LoadXml(url) {
+        SendMessage({
+            type: "bv-load-building",
+            url,
+        });
+    }
+
+    //전체 건물보기
+    function ShowAllFloors() {
+        SendMessage({
+            type: 'bv-set-all-floor-visible',
+            visible: true,
+        });
+    }
+
+
+    // 층 보기 요청
+    function SetFloorVisible(floorId, visible) {
+
+        console.log(floorId,visible)
+        SendMessage({
+            type: "bv-set-floor-visible",
+            id: floorId,
+            visible: visible,
+        });
+    }
+
+    // POI 상태 설정(아이콘, 라벨, 선택상태 등)
+    function SetPoiStatus(icon, label) {
+        SendMessage({
+            type: "bv-set-poi-status",
+            poiStatus: [
+                {
+                    poiId: "0U19V5KPEP", // 설정 대상 POI ID
+                    icon: icon, // 설정할 아이콘 타입(normal, alarm, off) (생략하면 현재 아이콘 타입 유지)
+                    label: label, // 설정할 라벨 (생략하면 라벨 유지, 빈 문자열''을 지정하면 라벨 제거)
+                    selected: true, // 선택상태 설정 (생략하면 선택상태 유지)
+                },
+                {
+                    poiId: "7WS2ITCKY7",
+                    icon: icon,
+                    label: label,
+                },
+            ],
+        });
+    }
+
+    // POI 정보 요청
+    function GetAllPoi() {
+        SendMessage({
+            type: "bv-get-all-poi",
+        });
+    }
+
+    // 층 목록 요청
+    function GetFloors() {
+        SendMessage({
+            type: "bv-get-floors",
+        });
+    }
+
+    // 뷰어 상태 요청
+    function GetStatus() {
+        SendMessage({
+            type: "bv-get-status",
+        });
+    }
+
+    //뷰어 초기화
+    function Cleanup() {
+        if (window.location.pathname === '/') {
+            location.replace('/');
+        }
+        if (window.location.pathname === '/theHam') {
+            location.replace('/theHam');
+        }
+        if (window.location.pathname === '/north') {
+            location.replace('/north');
+        }
+        if (window.location.pathname === '/jiri') {
+            location.replace('/jiri');
+        }
+        if (window.location.pathname === '/taback') {
+            location.replace('/taback');
+        }
+        // SendMessage({
+        //     type: 'bv-cleanup',
+        // });
+    }
+
+
+</script>
+
+</body>
+</html>

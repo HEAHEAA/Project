@@ -1,0 +1,241 @@
+.login-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/bg/admin-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+}
+
+.login-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.login-header{
+    width: 80%;
+    height: 60px;
+    color: #242f44;
+}
+
+.login-logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+
+.signup-box{
+    width: 800px;
+    /* 상하좌우 정중앙 정렬하기 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.signup-inner{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.signup-inner-box{
+    width: 100%;
+    height: 10vh;
+    line-height: 20px;
+    font-family:'LINE-KR-Bd';
+}
+
+.signup-grid input{
+    margin-top: 1vh;
+}
+
+
+.sign-input {
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    margin-bottom: 0.5vh;
+}
+
+
+@media (min-width: 1910px) and (max-width: 1980px){
+    .signup-box{
+        width: 650px;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+
+@media (min-width: 610px) and (max-width: 1910px){
+    .signup-box{
+        width: 60%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 610px){
+    .signup-box{
+        width: 100%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100vh;
+        overflow: auto;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 380px){
+    .signup-box{
+        width: 100%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 100vh;
+        overflow: auto;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 15vh;
+        line-height: 20px;
+        /*display: none;*/
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}

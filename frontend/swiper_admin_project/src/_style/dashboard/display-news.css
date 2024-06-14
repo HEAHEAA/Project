@@ -1,0 +1,35 @@
+.news-display-section{
+    width: 95%;
+    height: 8vh;
+    background-color: #ffffff;
+    margin-left: 2.5%;
+    margin-top: 1vh;
+    border-radius: 20px;
+    font-family: 'LINE-KR-Bd', serif;
+    font-size: 35px;
+}
+
+
+@media (min-width: 1920px)  and (max-width: 1980px){
+    .news-display-section{
+        height: 10vh;
+    }
+
+    .news-display-section section:nth-child(1){
+        height: 10vh;
+    }
+
+}
+
+@media (min-width: 1280px)  and (max-width: 1919px){
+    .news-display-section{
+        height: 8vh;
+        margin-top: 2vh;
+    }
+
+    .news-display-section section:nth-child(1){
+        height: 10vh;
+        font-size: 25px;
+    }
+
+}

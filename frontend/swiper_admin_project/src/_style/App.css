@@ -1,0 +1,192 @@
+.web-contents {
+    width: 100%;
+    min-height: 95vh;
+    max-height: 100%;
+    margin-top: 5vh;
+    background-color: #eeeeee;
+    color: black;
+    float: left;
+}
+
+.mobile-contents {
+    display: none;
+    width: 100%;
+    min-height: 95vh;
+    max-height: 100%;
+    background-color: #eeeeee;
+    color: black;
+    float: left;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.header-logo {
+    width: 250px;
+    margin-top: 7px;
+}
+
+.container{
+    width: 75%;
+    max-height: 100%;
+    margin-left: 12.5%;
+}
+.container h1{
+    font-family: 'LINE-KR-Bd', serif;
+    font-size: 40px;
+    margin-bottom: -30px;
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+
+.modal-bar{
+    background-color: white;
+}
+.modal-bar::-webkit-scrollbar {
+    width: 10px;
+}
+.modal-bar::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.modal-bar::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.dashboard-title{
+    width: 100%;
+    height: 130px;
+    /*background-color: black;*/
+}
+
+.dashboard-title h1{
+    float: left;
+}
+
+
+/*모바일 사이드 바*/
+.mobile-menu-top-bar{
+    width: 100%;
+    height: 60px;
+    background-color: #1c63c2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.mobile-menu-toggle-btn{
+    color: white;
+    /* 상하좌우 정중앙 정렬하기 */
+
+}
+
+.mobile-menu-top-bar img{
+    width: 150px;
+    height: 30px;
+    margin-left: 38%;
+}
+
+@media (min-width: 1920px) and (max-width: 1980px) {
+    .container h1{
+        margin-bottom: 0px;
+    }
+
+    .container{
+        width: 75%;
+        max-height: 100%;
+        margin-left: 12.5%;
+    }
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .container h1{
+        margin-bottom: 0px;
+        font-size: 34px;
+    }
+
+    .container{
+        width: 75%;
+        max-height: 100%;
+        margin-left: 12.5%;
+        margin-top: 20px;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 1279px) {
+    .container h1{
+        margin-bottom: 0px;
+    }
+
+    .container{
+        width: 85%;
+        max-height: 100%;
+        margin-left: 10.5%;
+    }
+
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .pc-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .web-contents {
+        display: none;
+    }
+
+    .mobile-contents {
+        display: block;
+        background-color: #eeeeee;
+    }
+
+    .container{
+        width: 92%;
+        max-height: 100%;
+        margin-left: 4%;
+        padding-bottom: 200px;
+    }
+    .container h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .modal-bar{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 20px;
+        height: 90%;
+        overflow: auto;
+        padding: 10px;
+    }
+
+
+    .dashboard-title .dashboard-title-sse{
+        margin-top: -80px;
+        width: 100%;
+        margin-left: auto;
+    }
+
+
+
+}

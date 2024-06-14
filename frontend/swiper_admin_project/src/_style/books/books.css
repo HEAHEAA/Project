@@ -1,0 +1,153 @@
+.booksPage-layout01 {
+    width: 100%;
+    min-height: 100px;
+    max-height: 100%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.booksPage-layout {
+    width: 100%;
+    min-height: 1300px;
+    max-height: 100%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.booksPage-layout-news {
+    width: 100%;
+    min-height: 1500px;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.bookAdd-layout01{
+    width: 48%;
+    height: 1000px;
+    margin-left: 20px;
+    float: left;
+}
+.book-upload-img{
+    width: 100%;
+    height: 1000px;
+    background-color: #e7e7e7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px dashed #d2d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'LINE-KR-Bd', serif;
+    color: #c9c9c9;
+}
+
+.book-upload-img:hover{
+    border: 2px dashed #8d8d8d;
+    color: #565656;
+    transition: 0.2s;
+}
+
+.bookAdd-layout02{
+    width: 48%;
+    height: 1050px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    /*background-color: #242f44;*/
+}
+
+.bookAdd-layout03{
+    width: 48%;
+    height: 1000px;
+    margin-left: 20px;
+    float: left;
+    /*background-color: #242f44;*/
+}
+
+.book-upload-img02{
+    width: 100%;
+    height: 480px;
+    background-color: #e7e7e7;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px dashed #d2d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'LINE-KR-Bd', serif;
+    color: #c9c9c9;
+}
+
+.book-upload-img02:hover{
+    border: 2px dashed #8d8d8d;
+    color: #565656;
+    transition: 0.2s;
+}
+
+
+.book-upload-img03{
+    width: 100%;
+    height: 480px;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    border: 2px dashed #d2d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'LINE-KR-Bd', serif;
+    color: #c9c9c9;
+}
+
+.book-upload-img03:hover{
+    border: 2px dashed #8d8d8d;
+    color: #565656;
+    transition: 0.2s;
+}
+
+
+@media (min-width: 0px) and (max-width: 480px){
+    .booksPage-layout {
+        width: 100%;
+        min-height: 1650px;
+        max-height: 100%;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+
+    .bookAdd-layout01{
+        width: 100%;
+        height: 300px;
+    }
+    .book-upload-img{
+        width: 90%;
+        height: 250px;
+    }
+
+    .bookAdd-layout02{
+        width: 90%;
+        height: 1050px;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+        /*background-color: #242f44;*/
+    }
+
+}
+

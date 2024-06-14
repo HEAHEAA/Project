@@ -1,0 +1,273 @@
+
+@media (min-width: 1920px)  and (max-width: 1980px){
+
+    /*공지사항 start*/
+
+    .notice-section {
+        width: 100%;
+        height: 150px;
+        background-color: #f5f5f5;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #dedede;
+        border-left: 15px solid #14af98;
+        overflow: auto;
+        font-family: 'LINE-KR-Bd', serif;
+    }
+    /*공지사항 end*/
+
+
+    .el-em-section {
+        width: 45%;
+        height: 400px;
+    }
+
+    .el-em-profile-img img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        border: 3px solid white;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+
+
+
+    /*추천도서 start*/
+    .content-img-div img {
+        min-width: 100px;
+        max-width: 70%;
+        min-height: 370px;
+        margin-top: 12.5px;
+        max-height: 100%;
+    }
+    /*추천도서 end*/
+
+}
+
+@media (min-width: 480px)  and (max-width: 1919px) {
+    /*공지사항 start*/
+    .notice-section {
+        width: 100%;
+        height: 240px;
+    }
+
+    .notice-section strong {
+        float: left;
+        margin-top: 10px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    /*공지사항 end*/
+    /*우수사원 start*/
+    .el-em-section {
+        width: 90%;
+    }
+
+    /*우수사원 End*/
+    /*추천도서 start*/
+    .books-section {
+        width: 94%;
+        max-height: 100%;
+        margin-left: 3%;
+    }
+
+    .books-section02 {
+        width: 65%;
+        height: 190px;
+        margin-left: 20px;
+    }
+
+    .books-section03 {
+        width: 65%;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+    }
+
+
+    .content-img-div img {
+        max-width: 100%;
+        min-height: 370px;
+    }
+
+
+    .book-content-head {
+        width: 100%;
+        height: 40px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #14af98;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+    }
+
+    .book-contetn-body {
+        width: 100%;
+        height: 160px;
+    }
+
+    /*추천도서 end*/
+}
+
+
+@media (min-width: 0px)  and (max-width: 480px) {
+    .layout-display {
+        display: none;
+    }
+
+    .layout-notice {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .layout-excellent {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .layout-bid01 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .layout-bid02 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .layout-bid03 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .layout-news {
+        width: 100%;
+        min-height: 500px;
+        max-height: 600px;
+    }
+
+    .layout-books {
+        width: 100%;
+        height: 1000px;
+        margin-bottom: 150px;
+    }
+
+
+
+
+
+    /*공지사항 start*/
+    .notice-section {
+        width: 100%;
+        height: 210px;
+    }
+
+    .notice-section strong {
+        font-size: 18px;
+    }
+
+    .notice-section small {
+        font-size: 14px;
+    }
+    /*공지사항 End*/
+
+
+
+    /*우수사원 start*/
+    .el-em-section {
+        width: 95%;
+        height: 400px;
+        min-height: 400px;
+        max-height: 100%;
+        background-color: #eeeeee;
+        margin-top: 15px;
+        margin-left: 2.5%;
+        border-radius: 10px;
+        display: inline-block;
+        border: 1px solid #e0e0e0;
+    }
+
+    .el-em-img{
+        width: 80%;
+        height: 250px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+
+    .el-em-profile{
+        width: 80%;
+        height: 80px;
+        margin-left: 10%;
+        margin-top: 30px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    /*우수사원 End*/
+
+
+
+
+    /*추천도서 start*/
+    .books-section{
+        width: 94%;
+        max-height: 100%;
+        margin-left: 3%;
+
+    }
+
+    .books-section01{
+        width: 98%;
+        margin-left: 1%;
+        height: 400px;
+    }
+
+    .books-section02{
+        width: 100%;
+        height: 240px;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .books-section03{
+        width: 100%;
+        height: 240px;
+        background-color: #f6f6f6;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .content-img-div img {
+        max-width: 75%;
+    }
+
+    .book-contetn-body{
+        width: 100%;
+        height: 200px;
+    }
+
+    /*추천도서 end*/
+
+
+
+
+    /*서브 타이블*/
+    .sub-title small{
+        margin-right: 10px;
+    }
+
+}
+

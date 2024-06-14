@@ -1,0 +1,162 @@
+.noticePage-layout {
+    width: 100%;
+    min-height: 300px;
+    max-height: 100%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.notice-search-header {
+    width: 100%;
+    height: 80px;
+}
+
+.notice-search-header button {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.notice-search-header .excel-download-btn{
+   float: right;
+}
+
+
+/*1. 검색창 start*/
+.list-search {
+    width: 50%;
+    height: 4vh;
+    border-radius: 10px;
+    margin-bottom: 0.5vh;
+    float: left;
+}
+
+.container-1 {
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search {
+    width: 100%;
+    height: 50px;
+    background: #efefef;
+    border: 1px solid #e5e5e5;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+
+.container-1 input#search::-moz-placeholder { /* Firefox 19+ */
+    color: #65737e;
+}
+
+.container-1 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 35px;
+    margin-top: 35px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active {
+    outline: none;
+    background: #ffffff;
+    transition: 0.4s;
+}
+
+/*검색창 end*/
+
+
+/*모달*/
+.modal-grid {
+    margin-top: 20px;
+}
+
+.modal-grid span {
+    font-size: 18px;
+    font-family: 'LINE-KR-Bd', serif;
+}
+
+.excel-upload{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+#excel::file-selector-button{
+    display: none;
+}
+#excel{
+    width: 100%;
+    height: 50px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px dashed #d7d7d7;
+}
+#excel:hover{
+    background-color: #d5d5d5;
+    border: 2px dashed #9a9a9a;
+}
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .notice-search-header {
+        width: 100%;
+        height: 230px;
+    }
+
+    .list-search {
+        width: 90%;
+        height: 80px;
+    }
+
+    .notice-search-header button {
+        margin-top: 0px;
+        margin-right: 20px;
+        margin-left: 0%;
+        float: left;
+        width: 90%;
+    }
+
+    .all-label-btn{
+        width: 90%;
+        height: 100px;
+
+    }
+
+}

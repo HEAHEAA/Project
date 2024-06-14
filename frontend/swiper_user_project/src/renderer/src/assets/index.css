@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'SUITE-Reguar';
+  src: url("./font/SUIT-woff2/SUIT-Regular.woff2")format('woff2') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUITE-Bold';
+  src:url("./font/SUIT-woff2/SUIT-Bold.woff2")format('woff2') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-KR-Rg';
+  src: url("./font/LINE-KR/LINESeedKR-Rg.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-KR-Bd';
+  src: url("./font/LINE-KR/LINESeedKR-Bd.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-EN-Rg';
+  src: url("./font/LINE-EN/LINESeedSans_W_Rg.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-EN-Bd';
+  src: url("./font/LINE-EN/LINESeedSans_W_Bd.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  font-family: 'SUITE-Reguar', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color-scheme: only light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+}
+body{
+  margin: 0;
+}
+
+.swiper{
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container{
+  width: 100%;
+  height: 100%;
+  background-color: #03182b;
+  /*background-image: url("./bg/bg002.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top center;*/
+  background-size: cover;
+  text-align: center;
+}
+
+.excellent-container{
+  width: 100%;
+  height: 100%;
+  background-color: #03182b;
+  /*background-image: url("./bg/excellent-bg03.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top center;*/
+  /*background-size: cover;*/
+  background-color: #03182b;
+  text-align: center;
+}
+
+.bid-container{
+  width: 100%;
+  height: 100%;
+  background-color: #03182b;
+  /*background-image: url("./bg/sub-bg01.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top center;*/
+  /*background-size: cover;*/
+  text-align: center;
+}
+.bid02-container{
+  width: 100%;
+  height: 100%;
+  background-color: #03182b;
+  /*background-image: url("bg/sub-bg02.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top center;*/
+  /*background-size: cover;*/
+  text-align: center;
+}
+
+.bid03-container{
+  width: 100%;
+  height: 100%;
+  background-color: #03182b;
+  /*background-image: url("./bg/sub-bg03.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top center;*/
+  /*background-size: cover;*/
+  text-align: center;
+}

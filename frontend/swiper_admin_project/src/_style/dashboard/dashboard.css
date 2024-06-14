@@ -1,0 +1,564 @@
+.layout-display {
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.layout-notice {
+    width: 49%;
+    height: 700px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+.layout-notice::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-notice::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-notice::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-excellent {
+    width: 49.5%;
+    height: 700px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 1.5%;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-excellent::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-excellent::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-excellent::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-bid01 {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-bid01::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-bid01::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-bid01::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-bid02 {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-bid02::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-bid02::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-bid02::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-bid03 {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+.layout-bid03::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-bid03::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-bid03::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-news {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-news::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-news::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-news::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+.layout-books {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-books::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-books::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-books::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+
+.layout-group-news {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    float: left;
+    overflow: auto;
+}
+
+
+.layout-group-news ::-webkit-scrollbar {
+    width: 10px;
+}
+
+.layout-group-news ::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.layout-group-news ::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+.sub-title {
+    width: 95%;
+    height: 40px;
+    margin-left: 3%;
+    /*background-color: #03182b;*/
+}
+
+
+.sub-title strong{
+   float: left;
+}
+.sub-title small{
+   float: right;
+    font-size: 15px;
+}
+.sub-title small:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.role-stop{
+    width: 30%;
+    height: 160px;
+    /*background-color: #03182b;*/
+    text-align: center;
+    float: left;
+}
+.role-stop-icon{
+    margin-top: 15px;
+    font-size: 50px;
+}
+.role-stop-title{
+    width: 60%;
+    height: 160px;
+    float: right;
+    font-size: 25px;
+    /*background-color: #03182b;*/
+    margin-top: -10px;
+    font-family: 'LINE-KR-Bd', serif;
+}
+
+
+
+/*공지사항 start*/
+
+.dashboard-layout {
+    width: 94%;
+    margin-left: 3%;
+    max-height: 100%;
+}
+
+.notice-section {
+    width: 100%;
+    height: 150px;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #dedede;
+    border-left: 15px solid #14af98;
+    overflow: auto;
+    font-family: 'LINE-KR-Bd', serif;
+}
+
+.notice-section strong {
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.notice-section small {
+    position: sticky;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #a1a1a1;
+}
+
+/*공지사항 end*/
+
+
+/*우수사원 start*/
+.el-em-section {
+    width: 45%;
+    height: 400px;
+    background-color: #eeeeee;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.el-em-img{
+    vertical-align:middle;
+    display: flex;
+    justify-content: center;
+}
+
+.el-em-img img{
+    min-width: 95%;
+    max-width:100%;
+    min-height: 100%;
+    max-height:280px;
+    margin-top: 10px;
+}
+
+.el-em-profile-img{
+    position: absolute;
+
+}
+
+.el-em-profile-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: 3px solid white;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+
+.el-em-profile{
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*우수사원 End*/
+
+
+
+/*입찰 낙찰 start*/
+.bid-section{
+    width: 94%;
+    margin-left: 3%;
+    max-height: 100%;
+}
+/*입찰 낙찰 end*/
+
+
+/*업계소식 start*/
+.news-section{
+    width: 94%;
+    margin-left: 3%;
+    max-height: 100%;
+}
+/*업계소식 end*/
+
+
+/*추천도서 start*/
+.books-section{
+    width: 94%;
+    max-height: 100%;
+    margin-left: 3%;
+
+}
+
+.books-section01{
+    width: 30%;
+    height: 350px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    float: left;
+}
+.books-section02{
+    width: 68%;
+    height: 160px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.books-section03{
+    width: 68%;
+    height: 160px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.books-section04{
+    width: 350px;
+    height: 10px;
+    margin-top: 20px;
+    /*background-color: #f6f6f6;*/
+    /*border-radius: 10px;*/
+    /*margin-left: 20px;*/
+    /*margin-top: 20px;*/
+    float: right;
+}
+
+
+.content-img {
+    text-align: center;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+}
+
+.content-img-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-img-div img {
+    min-width: 100px;
+    max-width: 47%;
+    min-height: 300px;
+    margin-top: 12.5px;
+    max-height: 100%;
+}
+
+
+.book-content-head{
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #14af98;
+    text-align: center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.book-contetn-body{
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-weight: bold;
+    font-family: 'LINE-KR-Bd', serif;
+    font-size: 15px;
+    color: #383838;
+    overflow: auto;
+}
+
+.book-contetn-body::-webkit-scrollbar {
+    width: 10px;
+}
+
+.book-contetn-body::-webkit-scrollbar-thumb {
+    background-color: #cbcdd3;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.book-contetn-body::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+
+/*추천도서 end*/
+
+/*그룹소식 start*/
+.group-news-section{
+    width: 95%;
+    min-height: 350px;
+    max-height: 100%;
+    margin-left: 2.5%;
+
+}
+
+.group-news-section01{
+    width: 40%;
+    height: 750px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    float: left;
+}
+.group-news-section02{
+    width: 55%;
+    height: 360px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.group-news-section03{
+    width: 55%;
+    height: 360px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.group-news-section04{
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    float: right;
+}
+/*그룹소식 end*/
+
+
+
+
