@@ -1,0 +1,35 @@
+@media (min-width: 0px) and (max-width: 580px){
+    .real-time-layout{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .real-time-table table{
+        margin-top: 20px;
+        border: 1px solid #888;
+        max-height: 780px;
+        width: 1280px;
+        overflow-x:auto;
+    }
+
+    .real-time-table-l table{
+        margin-top: 20px;
+        border: 1px solid #888;
+        max-height: 780px;
+        width: 1280px;
+        overflow-x:auto;
+    }
+
+    .modal{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 80vh;
+        overflow: auto;
+        border-radius: 5px;
+        box-shadow: 24px 24px 24px;
+    }
+}

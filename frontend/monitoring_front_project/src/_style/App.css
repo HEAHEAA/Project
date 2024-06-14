@@ -1,0 +1,429 @@
+.loading-page{
+    width: 100%;
+    height: 100vh;
+    position: static;
+    z-index: 1;
+    background-image: url("../assets/img/loadings.gif");
+    background-repeat: repeat;
+    background-size: auto;
+}
+.loading-page h1{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'LINE-KR-Bd';
+    margin-left: 45%;
+}
+
+.logo{
+    width: 130px;
+    margin-top: 5px;
+}
+.dashboard{
+    width: 100%;
+    height: 100%;
+    background-color: #282c38;
+}
+.theme-light-ex{
+    width: 25px;
+    height: 25px;
+    background-image: linear-gradient(30deg, #1c63c2, #f7f9ff);
+    border-radius: 5px;
+}
+.theme-dark-ex{
+    width: 25px;
+    height: 25px;
+    background-image: linear-gradient(30deg, #182a42, #96a8dc);
+    border-radius: 5px;
+}
+
+.inner-dash{
+    width: 97%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #282c38;
+    padding-bottom: 20px;
+}
+
+
+
+.dash-map{
+    width: 100%;
+    height: 100%;
+    /*background-color: #2f3243;*/
+    border: 1px solid #3b4d63;
+    overflow: hidden;
+}
+
+
+.dash-map-theme{
+    position: absolute;
+}
+
+.dash-map header{
+    width: 100%;
+    height: 75px;
+    background-color: #242533;
+}
+
+.dash-map header section:nth-child(1){
+    border-left: 5px solid #1c63c2;
+    width: 20%;
+    height: 60%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, 30%);
+    color: #f1f1f1;
+    margin-left: 10px;
+}
+.dash-map header section:nth-child(2){
+    border-left: 5px solid #009523;
+    width: 20%;
+    height: 60%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, 30%);
+    color: #f1f1f1;
+}
+.dash-map header section:nth-child(3){
+    border-left: 5px solid #ff0000;
+    width: 20%;
+    height: 60%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, 30%);
+    color: #f1f1f1;
+}
+
+.dash-map header section:nth-child(4){
+    float: right;
+    width: 15%;
+    height: 60%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, 20%);
+    color: #f1f1f1;
+    margin-right: 1%;
+    /*background-color: white;*/
+}
+
+.dash-map header section strong{
+    font-size: 40px;
+    float: right;
+    margin-right: 10%;
+}
+
+
+.dash-list{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #3b4d63;
+    background-color: #2f3243;
+}
+
+
+.dash-list header{
+    width: 100%;
+    height: 75px;
+    background-color: #242533;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.dash-list header section:nth-child(1){
+    width: 35%;
+    height: 60%;
+    /*display: inline-block;*/
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 25px;
+    /*background-color: #8a90af;*/
+    display: inline-block;
+}
+
+.dash-list header section:nth-child(2){
+    width: 20%;
+    height: 60%;
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 20px;
+    /*background-color: #8a90af;*/
+    float: right;
+    cursor: pointer;
+}
+
+
+.dash-list header section:nth-child(2):hover{
+    transition: 0.5s;
+    color: white;
+}
+
+
+.now-chart{
+    width: 100%;
+    height:100%;
+    background-color: #2f3243;
+    border: 1px solid #3b4d63;
+}
+
+.now-chart header{
+    width: 100%;
+    height: 75px;
+    background-color: #242533;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.now-chart header section:nth-child(1){
+    width: 80%;
+    height: 60%;
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.now-chart header section:nth-child(2){
+    width: 20%;
+    height: 100%;
+    top: 50%;
+    transform: translate(0, -47%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 20px;
+    /*background-color: #8a90af;*/
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.time-chart{
+    width: 100%;
+    height: 100%;
+    background-color: #2f3243;
+    border: 1px solid #3b4d63;
+}
+
+.time-chart header{
+    width: 100%;
+    height: 75px;
+    background-color: #242533;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.time-chart header section:nth-child(1){
+    width: 80%;
+    height: 60%;
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.time-chart header section:nth-child(1) small{
+    font-size: 14px;
+}
+
+
+.error-list{
+    width: 100%;
+    height: 100%;
+    /*overflow: auto;*/
+    background-color: #2f3243;
+    border: 1px solid #3b4d63;
+}
+
+.error-list header{
+    width: 100%;
+    height: 75px;
+    background-color: #242533;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.error-list section:nth-child(1){
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.error-list section:nth-child(1) small{
+    font-size: 14px;
+}
+
+.error-list section:nth-child(2){
+    width: 25%;
+    height: 60%;
+    /*display: inline-block;*/
+    top: 50%;
+    transform: translate(0, 50%);
+    color: #dadada;
+    margin-right: 20px;
+    font-size: 16px;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+
+.error-list section:nth-child(2):hover{
+    transition: 0.5s;
+    color: white;
+}
+
+
+/* dash-map*/
+.dash_map_detail table tr td img{
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+/******* 실시간 데이터 *********/
+.dash-table-layout{
+    width: 100%;
+    height: 775px;
+    /*background-color: #8a90af;*/
+}
+
+.dash-table-layout table thead{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1f212d;
+    display: table;
+}
+
+.dash-table-layout table thead tr td{
+    width: 1%;
+}
+
+.dash-table-layout table tbody{
+    display: block;
+    max-height: 705px;
+    overflow-y: scroll;
+    /*background-color: #8a90af;*/
+}
+
+.dash-table-layout table tbody tr td{
+    width: 1%;
+}
+
+.dash-table-layout table tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.dash-table-layout table tbody::-webkit-scrollbar{
+    width: 5px;
+}
+.dash-table-layout table tbody::-webkit-scrollbar-thumb{
+    background-color: #17212f;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dash-table-layout table tbody::-webkit-scrollbar-track{
+    background-color: #707070;
+}
+
+
+/******* 실시간 시간별 차트 *********/
+
+.dash-hour-chart{
+    width: 100%;
+    /*height: 100%;*/
+    overflow: auto;
+    margin-top: 100px;
+    /*background-color: #009523;*/
+}
+.chart-hour{
+    width: 100%;
+    height: 100%;
+}
+.percent-chart{
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    /*background-color: #00AAFF;*/
+}
+.chart-donut{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    /*margin-left: 10%;*/
+    /*margin: 0;*/
+}
+
+.error-list-layout{
+    width: 100%;
+    height: 82%;
+    overflow: hidden;
+    /*background-color: #fdfffd;*/
+    margin-top: 75px;
+}
+
+
+.percent-inner-chart{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.error-list-layout table thead{
+    width: 100%;
+    background-color: #8d1717;
+}
+
+
+.not-error-text{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 24px 24px 24px;
+}
+
+

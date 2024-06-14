@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'SUITE-Reguar';
+  src: url("../assets/font/SUIT-woff2/SUIT-Regular.woff2")format('woff2') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUITE-Bold';
+  src:url("../assets/font/SUIT-woff2/SUIT-Bold.woff2")format('woff2') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-KR-Rg';
+  src: url("../assets/font/LINE-KR/LINESeedKR-Rg.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-KR-Bd';
+  src: url("../assets/font/LINE-KR/LINESeedKR-Bd.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-EN-Rg';
+  src: url("../assets/font/LINE-EN/LINESeedSans_W_Rg.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINE-EN-Bd';
+  src: url("../assets/font/LINE-EN/LINESeedSans_W_Bd.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  font-family: 'LINE-KR-Rg', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+}

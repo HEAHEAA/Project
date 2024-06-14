@@ -1,0 +1,62 @@
+.real-time-layout{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.real-time-layout h1{
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    /*background-color: #009523;*/
+    float: left;
+    color: white;
+    font-family: 'LINE-KR-Bd';
+
+}
+.real-time-table {
+    margin-top: 20px;
+    border: 1px solid #888;
+    max-height: 780px;
+    width: 100%;
+    overflow-x:auto;
+}
+
+.real-time-table table tbody tr:hover{
+    background-color: #1f212d;
+    cursor: auto;
+}
+
+
+
+.real-time-table-l {
+    margin-top: 20px;
+    border: 1px solid #888;
+    max-height: 780px;
+    width: 100%;
+    overflow-x:auto;
+}
+
+.real-time-table-l table tbody tr:hover{
+    background-color: #efefef;
+    cursor: auto;
+}
+
+.real-time-loading{
+    display: flex;
+    justify-content: center;
+}
+
+
+.real-time-table{
+    margin-top: 20px;
+    border: 1px solid #888;
+    max-height: 700px;
+    width: 100%;
+    overflow-x:auto;
+}
+
+.realtime-btn-realtable{
+    display: none;
+}
+

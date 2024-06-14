@@ -1,0 +1,17 @@
+.grid-item{
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 30px; /* 원하는 크기로 설정 */
+    height: 30px; /* 원하는 크기로 설정 */
+    background-image: url('../layout/svg.svg'); /* SVG 아이콘 경로 */
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+}

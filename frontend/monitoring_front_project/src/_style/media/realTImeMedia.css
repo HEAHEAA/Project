@@ -1,0 +1,36 @@
+@media (min-width: 0px) and (max-width: 580px){
+    .err-info-table table{
+        margin-top: 20px;
+        border: 1px solid #888;
+        max-height: 780px;
+        width: 1280px;
+        overflow-x:auto;
+    }
+
+    .err-info-table-l table{
+        margin-top: 20px;
+        border: 1px solid #888;
+        max-height: 780px;
+        width: 1280px;
+        overflow-x:auto;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 580px){
+    .realtime-btn-realtable{
+        margin-top: 20px;
+        float: right;
+        width: 100%;
+        display: block;
+    }
+    .realtime-btn-realtable button{
+        width: 100%;
+        display: block;
+    }
+
+
+    .realtime-btn-start{
+        display: none;
+    }
+}
