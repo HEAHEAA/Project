@@ -1,0 +1,351 @@
+.login-head {
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1px solid #cccccc;
+}
+
+.login-content {
+    width: 100%;
+    height: 92vh;
+}
+
+.login-content-1 {
+    width: 100%;
+    height: 20vh;
+    /*background-color: orange;*/
+    text-align: center;
+}
+
+#logo {
+    width: 65px;
+    margin-left: 2vh;
+}
+
+#login-p {
+    text-decoration: underline #6c63ff;
+    font-size: 2.5rem;
+}
+
+.background {
+    width: 100%;
+    background-image: url("../../assets/img/login5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.notion {
+    width: 52%;
+    height: 30vh;
+    background-color: white;
+    border: 1px solid #cccccc;
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 2.5%;
+}
+
+.login-notion-head {
+    width: 30%;
+    height: 6vh;
+    background-color: #726bea;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+.login-notion-head p {
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    padding-top: 1.3vh;
+}
+
+.login-notion-search {
+    width: 100%;
+    height: 5vh;
+    /*background-color: #6c63ff;*/
+    margin-top: 1vh;
+}
+
+.login-notion-search button {
+    width: 12%;
+    height: 6vh;
+    margin-left: 1vh;
+}
+
+.login-notion-table {
+    width: 100%;
+    max-height: 73vh;
+    margin-top: -2vh;
+    /*border: 1px solid #dadada;*/
+    overflow: auto;
+}
+
+
+.find-box{
+    width: 100%;
+    height: 14vh;
+    /*background-color: #6c63ff;*/
+    margin-top: 5vh;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+
+.find-box:hover{
+    box-shadow: 5px 5px 5px 5px #b0b0b0;
+    transition: 0.5s;
+}
+
+.find-box-icon-form{
+    width: 30%;
+    height: 14vh;
+    float: left;
+    /*background-color: #727272;*/
+}
+.find-box-icon{
+    width: 100%;
+    height: 7vh;
+    margin-top: 3vh;
+    color: #494949;
+}
+
+.find-box-text-box{
+    width: 50%;
+    height: 14vh;
+    /*background-color: #464646;*/
+    float: left;
+    line-height: 30px;
+}
+.find-box-text-box h1{
+    text-align: left;
+    padding-top: 3vh;
+    color: #494949;
+}
+
+.find-box-text-box h1 small{
+    text-align: left;
+    padding-top: -0vh;
+    font-size: 15px;
+    color: #494949;
+}
+.find-box-next-box{
+    width: 20%;
+    height: 14vh;
+    /*background-color: #efefef;*/
+    float: left;
+}
+
+.find-box-next-icon{
+    width: 100%;
+    height: 3vh;
+    margin-top: 5vh;
+    color: #494949;
+}
+
+.find-box-foot{
+    width: 100%;
+    height: 4vh;
+    /*background-color: #464646;*/
+    margin-top: 5vh;
+}
+
+.find-box-foot button:nth-child(1){
+    float: left;
+    font-size: 15px;
+}
+.find-box-foot button:nth-child(2){
+    float: right;
+    font-size: 15px;
+}
+
+
+@media (min-width: 1960px) and (max-width: 2000px) {
+    .login-notion-search {
+        width: 100%;
+        height: 10vh;
+        /*background-color: #6c63ff;*/
+        margin-top: 2vh;
+    }
+
+    .login-notion-search button {
+        width: 6%;
+        height: 6vh;
+        margin-left: 1vh;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    .login-head {
+        width: 100%;
+        height: 8vh;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .login-content {
+        width: 100%;
+        height: 92vh;
+    }
+
+    .login-content-1 {
+        width: 100%;
+        height: 20vh;
+        /*background-color: orange;*/
+        text-align: center;
+    }
+
+    #logo {
+        width: 65px;
+        margin-left: 2vh;
+    }
+
+    #login-p {
+        text-decoration: underline #6c63ff;
+        font-size: 2.5rem;
+    }
+
+    .background {
+        width: 100%;
+        background-image: url("../../assets/img/login5.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        display: none;
+    }
+
+    .notion {
+        width: 52%;
+        height: 30vh;
+        background-color: white;
+        border: 1px solid #cccccc;
+        position: absolute;
+        margin-top: 65vh;
+        margin-left: 2.5%;
+    }
+
+    .login-notion-head {
+        width: 100%;
+        height: 6vh;
+        background-color: #726bea;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: -2vh;
+    }
+
+    .login-notion-head p {
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+        padding-top: 1.3vh;
+    }
+
+    .login-notion-search {
+        width: 100%;
+        height: 10vh;
+        /*background-color: #6c63ff;*/
+        margin-top: 1vh;
+    }
+
+    .login-notion-search button {
+        width: 5%;
+        height: 6vh;
+    }
+
+    .login-notion-table {
+        width: 100%;
+        max-height: 73vh;
+        margin-top: 2vh;
+        overflow: auto;
+    }
+    .login-notion-table table{
+        margin-top: 4vh;
+    }
+
+
+
+    .find-box{
+        width: 100%;
+        height: 32vh;
+        /*background-color: #6c63ff;*/
+        margin-top: 5vh;
+        border-radius: 10px;
+        border: 1px solid #e3e3e3;
+        cursor: pointer;
+    }
+
+    .find-box:hover{
+        box-shadow: 5px 5px 5px 5px #b0b0b0;
+        transition: 0.5s;
+    }
+
+    .find-box-icon-form{
+        width: 100%;
+        height: 10vh;
+        float: left;
+        /*background-color: #727272;*/
+    }
+    .find-box-icon{
+        width: 100%;
+        height: 7vh;
+        margin-top: 3vh;
+        color: #494949;
+    }
+
+    .find-box-text-box{
+        width: 100%;
+        height: 10vh;
+        /*background-color: #464646;*/
+        float: left;
+        line-height: 30px;
+    }
+    .find-box-text-box h1{
+        text-align: center;
+        padding-top: 0vh;
+        padding-left: 0vh;
+        font-size: 20px;
+        color: #494949;
+    }
+
+    .find-box-text-box h1 small{
+        text-align: left;
+        padding-top: -0vh;
+        font-size: 12px;
+        color: #494949;
+    }
+    .find-box-next-box{
+        width: 100%;
+        height: 14vh;
+        /*background-color: #efefef;*/
+        float: left;
+    }
+
+    .find-box-next-icon{
+        width: 100%;
+        height: 3vh;
+        margin-top: 5vh;
+        color: #494949;
+    }
+
+    .find-box-foot{
+        width: 100%;
+        height: 4vh;
+        /*background-color: #464646;*/
+        margin-top: 5vh;
+    }
+
+    .find-box-foot button:nth-child(1){
+        float: left;
+        font-size: 15px;
+        width: 100%;
+    }
+    .find-box-foot button:nth-child(2){
+        float: right;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+
+}

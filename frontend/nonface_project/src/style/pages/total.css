@@ -1,0 +1,1183 @@
+.total-ml-content{
+    width: 99%;
+    max-height: 100%;
+    height: 78vh;
+    min-height: 0vh;
+    overflow: auto;
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+.ml-section01{
+    width: 98%;
+    max-height: 35vh;
+    min-height: 35vh;
+    margin-left: 1%;
+    border: 1px solid #eaeaea;
+    margin-top: 1vh;
+}
+
+.ml-section02{
+    width: 48%;
+    max-height: 45vh;
+    min-height: 38vh;
+    border: 1px solid #eaeaea;
+    margin-left: 1%;
+    margin-top: 2vh;
+    float: left;
+}
+
+.ml-section03{
+    width: 48%;
+    max-height: 45vh;
+    min-height: 38vh;
+    border: 1px solid #eaeaea;
+    margin-right: 1%;
+    margin-top: 2vh;
+    float: right;
+}
+
+.ml-section-head{
+    width: 100%;
+    height: 5vh;
+}
+.ml-section-head-title{
+    width: 50%;
+    height: 5vh;
+    float: left;
+}
+.ml-section-head-title h3{
+    padding-left: 2vh;
+    font-weight: 400;
+}
+
+.ml-section-head-search{
+    width: 50%;
+    height: 7vh;
+    float: right;
+}
+.ml-start{
+    width: 15%;
+    height: 5vh;
+    float: right;
+}
+
+.ml-smooth{
+    float: right;
+    width: 2.5%;
+    height: 2vh;
+    margin-top: 2vh;
+}
+.ml-smooth span{
+   font-size: 22px;
+    text-align: center;
+    margin-left: 1vh;
+}
+.ml-End{
+    width: 15%;
+    height: 5vh;
+    float: right;
+}
+
+.ml-section-body{
+    width: 100%;
+    max-height: 20vh;
+}
+.ml-section-body-group{
+    width: 100%;
+}
+
+
+
+.ml-section-body-group table thead {
+    border-collapse: collapse;
+    /*border: 1px solid #000;*/
+}
+
+.ml-section-body-group table thead {
+    display: table;
+    width: calc(100%);
+}
+
+.ml-section-body-group table tbody {
+    display: block;
+    max-height: 20vh;
+    overflow-y: scroll;
+}
+
+.ml-section-body-group table tbody::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ml-section-body-group table tbody::-webkit-scrollbar-thumb {
+    background-color: #484848;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ml-section-body-group table tbody::-webkit-scrollbar-track {
+    background-color: darkgray;
+}
+
+
+.ml-section-body-group table th, td {
+    width: 5%;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.ml-section-body-group table tr {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ml-section-body-group table td {
+    text-align: left;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+
+.ml-section-body-company{
+    width: 100%;
+    max-height: 20vh;
+    margin-top: 2vh;
+}
+
+
+
+.customer-group-content{
+    width: 20%;
+    max-height: 100%;
+    height: 78vh;
+    min-height: 0vh;
+    overflow: auto;
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+.customer-group-content2{
+    width: 78.5%;
+    max-height: 100%;
+    height: 78vh;
+    min-height: 0vh;
+    overflow: auto;
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+
+
+
+.total-group-folder{
+    width: 95%;
+    min-height: 0vh;
+    margin-left: 2.5%;
+}
+
+.total-group-folder h2{
+    font-weight: 400;
+    color: #464646;
+}
+
+
+
+
+.make-group-folder{
+    width: 95%;
+    min-height: 11vh;
+    max-height: 71vh;
+    margin-left: 2.5%;
+    border: 1px solid #cecece;
+    overflow: auto;
+}
+
+.make-group-folder p{
+    padding-left: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.make-group-folder p:hover{
+    background-color: #eaeaea;
+}
+
+.make-group-folder span{
+    padding-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.make-group-folder span:hover{
+    background-color: #eaeaea;
+}
+
+.customer-group-board1{
+    width: 98%;
+    height: 40vh;
+    border: 1px solid #eaeaea;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.customer-group-board2{
+    width: 98%;
+    height: 33.5vh;
+    border: 1px solid #eaeaea;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+
+.gu-start{
+    width: 15%;
+    height: 5vh;
+    float: right;
+}
+
+.gu-smooth{
+    float: right;
+    width: 8%;
+    height: 2vh;
+    margin-top: 2vh;
+}
+.gu-smooth span{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 1vh;
+}
+.gu-End{
+    width: 15%;
+    height: 5vh;
+    float: right;
+}
+.groupUseChart{
+    margin-top: 2vh;
+}
+
+
+
+
+
+
+
+.ni-start{
+    width: 150px;
+    height: 5vh;
+    float: left;
+    margin-left: 1vh;
+}
+
+.ni-smooth{
+    float: left;
+    width: 30px;
+    height: 2vh;
+    margin-top: 2vh;
+}
+.ni-smooth span{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 1vh;
+}
+.ni-End {
+    width: 150px;
+    height: 5vh;
+    float: left;
+}
+
+
+
+
+
+
+/*테이블 - 회사별 사용 현황*/
+
+.total-user-table-client table{
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.total-user-table-client table thead {
+    border-collapse: collapse;
+    /*border: 1px solid #000;*/
+}
+
+.total-user-table-client table thead {
+    display: table;
+    width: calc(100%);
+}
+
+.total-user-table-client table tbody {
+    display: block;
+    max-height: 20vh;
+    overflow-y: scroll;
+}
+
+.total-user-table-client table tbody::-webkit-scrollbar {
+    width: 5px;
+}
+
+.total-user-table-client table tbody::-webkit-scrollbar-thumb {
+    background-color: #484848;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.total-user-table-client table tbody::-webkit-scrollbar-track {
+    background-color: darkgray;
+}
+
+
+.total-user-table-client table th, td {
+    width: 5%;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.total-user-table-client table tr {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.total-user-table-client table td {
+    text-align: left;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+/*테이블 - 사용자 일별/시간대별*/
+
+.customer-user-table-date table thead {
+    border-collapse: collapse;
+    /*border: 1px solid #000;*/
+}
+
+.customer-user-table-date table thead {
+    display: table;
+    width: calc(100%);
+}
+
+.customer-user-table-date table tbody {
+    display: block;
+    max-height: 25vh;
+    overflow-y: scroll;
+}
+
+.customer-user-table-date table tbody::-webkit-scrollbar {
+    width: 5px;
+}
+
+.customer-user-table-date table tbody::-webkit-scrollbar-thumb {
+    background-color: #484848;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.customer-user-table-date table tbody::-webkit-scrollbar-track {
+    background-color: darkgray;
+}
+
+
+.customer-user-table-date table th, td {
+    width: 5%;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.customer-user-table-date table tr {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.customer-user-table-date table td {
+    text-align: left;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+
+@media (min-width: 1920px) and (max-width: 2100px) {
+
+    .ml-section-head {
+        width: 100%;
+        height: 5vh;
+    }
+
+    .ml-section-head-search {
+        width: 50%;
+        height: 10vh;
+        float: right;
+    }
+
+    .ml-section-head-title {
+        width: 50%;
+        height: 5vh;
+        float: left;
+    }
+
+    .ml-start {
+        width: 22%;
+        height: 5vh;
+        float: right;
+    }
+
+    .ml-smooth {
+        float: right;
+        width: 2.5%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+
+    .ml-smooth span {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+
+    .ml-End {
+        width: 20%;
+
+        height: 5vh;
+        float: right;
+    }
+
+
+    .gu-start {
+        width: 22%;
+        height: 5vh;
+        float: right;
+    }
+
+    .gu-smooth {
+        float: right;
+        width: 8%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+
+    .gu-smooth span {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+
+    .gu-End {
+        width: 15%;
+        height: 5vh;
+
+    }
+
+
+
+
+
+    /*테이블 - 회사별 사용 현황*/
+
+    .total-user-table-client table thead {
+        border-collapse: collapse;
+        /*border: 1px solid #000;*/
+    }
+
+    .total-user-table-client table thead {
+        display: table;
+        width: calc(100%);
+    }
+
+    .total-user-table-client table tbody {
+        display: block;
+        max-height: 15vh;
+        overflow-y: scroll;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar-thumb {
+        background-color: #484848;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar-track {
+        background-color: darkgray;
+    }
+
+
+    .total-user-table-client table th, td {
+        width: 5%;
+        padding: 5px;
+        word-break: break-all;
+    }
+
+    .total-user-table-client table tr {
+        display: table;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .total-user-table-client table td {
+        text-align: left;
+        border-bottom: none;
+        border-left: none;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1200px){
+    .total-ml-content{
+        width: 100%;
+        min-height: 90vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .ml-section-head-search{
+        width: 100%;
+        height: 15vh;
+        float: left;
+    }
+
+    .ml-start{
+        width: 16%;
+        margin-left: 0%;
+        height: 5vh;
+        float: right;
+        margin-top: 1vh;
+
+    }
+
+    .ml-smooth{
+        float: right ;
+        width: 8%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .ml-smooth span{
+        font-size: 15px;
+        text-align: left;
+        margin-left: 1vh;
+    }
+    .ml-End{
+        width: 10%;
+        height: 5vh;
+        float: right;
+
+    }
+
+    .ml-section-body{
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 6vh;
+    }
+
+    .ml-section-body-company{
+        width: 100%;
+        min-height: 35vh;
+        margin-top: 0vh;
+    }
+
+
+    .ml-section01{
+        width: 98%;
+        max-height: 100%;
+        min-height: 75vh;
+        margin-left: 1%;
+        border: 1px solid #eaeaea;
+        margin-top: 1vh;
+    }
+
+    .ml-section02{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 2vh;
+        float: left;
+    }
+
+    .ml-section03{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-right: 1%;
+        margin-top: 2vh;
+        float: right;
+        margin-bottom: 20vh;
+    }
+    .ml-section-head-title{
+        width: 100%;
+        height: 7vh;
+        float: left;
+    }
+
+    .customer-group-content{
+        width: 95%;
+        max-height: 100%;
+        height: 0vh;
+        min-height: 30vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+    .customer-group-content2{
+        width: 95%;
+        max-height: 100%;
+        height: 125vh;
+        min-height: 0vh;
+        overflow: hidden;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-group-board1{
+        width: 100%;
+        min-height: 80vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+
+    .gu-start{
+        width: 25%;
+        /*background-color: #6c63ff;*/
+        height: 5vh;
+        float: left;
+        margin-left: 0.5%;
+        margin-top: 1vh;
+    }
+
+    .gu-smooth{
+        float: left;
+        width: 8%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .gu-smooth span{
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+    .gu-End{
+        width: 15%;
+        height: 5vh;
+        float: left;
+        margin-top: 1vh;
+    }
+
+    .ml-section-body-group{
+        width: 100%;
+        min-height: 10vh;
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+    }
+    .ml-section-body-group table{
+        margin-top: 0vh;
+    }
+
+    .customer-group-board2{
+        width: 98%;
+        height: 45.5vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .groupUseChart{
+        margin-top: 2vh;
+        margin-bottom: 20vh;
+    }
+
+}
+
+
+
+@media (min-width: 401px) and (max-width: 600px){
+
+
+    .total-ml-content{
+        width: 100%;
+        min-height: 90vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .ml-section-head-search{
+        width: 100%;
+        height: 35vh;
+        float: right;
+    }
+
+    .ml-start{
+        width: 47%;
+        height: 5vh;
+        float: left;
+    }
+
+    .ml-smooth{
+        float: left;
+        width: 10%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .ml-smooth span{
+        font-size: 15px;
+        text-align: left;
+        margin-left: 1vh;
+    }
+    .ml-End{
+        width: 40%;
+        height: 5vh;
+        float: left;
+    }
+
+    .ml-section-body{
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 6vh;
+    }
+
+    .ml-section-body-company{
+        width: 100%;
+        min-height: 40vh;
+        margin-top: 46vh;
+    }
+
+
+    .ml-section01{
+        width: 98%;
+        max-height: 100%;
+        min-height: 80vh;
+        margin-left: 1%;
+        border: 1px solid #eaeaea;
+        margin-top: 1vh;
+    }
+
+    .ml-section02{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 2vh;
+        float: left;
+    }
+
+    .ml-section03{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-right: 1%;
+        margin-top: 2vh;
+        float: right;
+        margin-bottom: 20vh;
+    }
+    .ml-section-head-title{
+        width: 100%;
+        height: 7vh;
+        float: left;
+    }
+
+
+
+    .customer-group-content{
+        width: 95%;
+        max-height: 100%;
+        height: 60vh;
+        min-height: 20vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+    .customer-group-content2{
+        width: 95%;
+        max-height: 100%;
+        height: 78vh;
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-group-board1{
+        width: 100%;
+        min-height: 80vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+
+    .gu-start{
+        width: 45%;
+        height: 5vh;
+        float: left;
+        margin-left: 0.5%;
+        margin-top: 1vh;
+    }
+
+    .gu-smooth{
+        float: left;
+        width: 8%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .gu-smooth span{
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+    .gu-End{
+        width: 15%;
+        height: 5vh;
+        float: left;
+        margin-top: 1vh;
+    }
+
+    .ml-section-body-group{
+        width: 100%;
+        min-height: 70vh;
+        margin-top: 2vh;
+        margin-bottom: 20vh;
+    }
+    .ml-section-body-group table{
+        margin-top: 2vh;
+    }
+
+    .customer-group-board2{
+        width: 98%;
+        height: 45.5vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .groupUseChart{
+        margin-top: 2vh;
+        margin-bottom: 20vh;
+    }
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 400px){
+
+
+    .total-ml-content{
+        width: 100%;
+        min-height: 90vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .ml-section-head-search{
+        width: 100%;
+        height: 35vh;
+        float: right;
+    }
+
+    .ml-start{
+        width: 47%;
+        height: 5vh;
+        float: left;
+    }
+
+    .ml-smooth{
+        float: left;
+        width: 10%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .ml-smooth span{
+        font-size: 15px;
+        text-align: left;
+        margin-left: 1vh;
+    }
+    .ml-End{
+        width: 40%;
+        height: 5vh;
+        float: left;
+    }
+
+    .ml-section-body{
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 6vh;
+    }
+
+    .ml-section-body-company{
+        width: 100%;
+        min-height: 40vh;
+        margin-top: 46vh;
+    }
+
+
+    .ml-section01{
+        width: 98%;
+        max-height: 100%;
+        min-height: 80vh;
+        margin-left: 1%;
+        border: 1px solid #eaeaea;
+        margin-top: 1vh;
+    }
+
+    .ml-section02{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 2vh;
+        float: left;
+    }
+
+    .ml-section03{
+        width: 98%;
+        max-height: 100%;
+        min-height: 45vh;
+        border: 1px solid #eaeaea;
+        margin-right: 1%;
+        margin-top: 2vh;
+        float: right;
+        margin-bottom: 20vh;
+    }
+    .ml-section-head-title{
+        width: 100%;
+        height: 7vh;
+        float: left;
+    }
+
+
+
+    .customer-group-content{
+        width: 95%;
+        max-height: 100%;
+        height: 60vh;
+        min-height: 20vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+    .customer-group-content2{
+        width: 95%;
+        max-height: 100%;
+        height: 78vh;
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 2.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-group-board1{
+        width: 100%;
+        min-height: 100vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+
+    .gu-start{
+        width: 45%;
+        height: 5vh;
+        float: left;
+        margin-left: 0.5%;
+        margin-top: 1vh;
+    }
+
+    .gu-smooth{
+        float: left;
+        width: 8%;
+        height: 2vh;
+        margin-top: 2vh;
+    }
+    .gu-smooth span{
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+    .gu-End{
+        width: 15%;
+        height: 5vh;
+        float: left;
+        margin-top: 1vh;
+    }
+
+    .ml-section-body-group{
+        width: 100%;
+        min-height: 70vh;
+        margin-top: 2vh;
+        margin-bottom: 20vh;
+    }
+    .ml-section-body-group table{
+       margin-top: 2vh;
+        white-space: nowrap;
+        border-collapse: collapse;
+    }
+
+    .customer-group-board2{
+        width: 98%;
+        height: 45.5vh;
+        border: 1px solid #eaeaea;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .groupUseChart{
+        margin-top: 2vh;
+        margin-bottom: 20vh;
+    }
+
+
+
+
+
+    .ni-start{
+        width: 160px;
+        height: 5vh;
+        float: left;
+        margin-left: 1vh;
+    }
+
+    .ni-smooth{
+        float: left;
+        width: 0px;
+        height: 2vh;
+        margin-top: 2vh;
+        display: none;
+    }
+    .ni-smooth span{
+        font-size: 22px;
+        text-align: center;
+        margin-left: 1vh;
+    }
+    .ni-End {
+        width: 150px;
+        height: 5vh;
+        float: left;
+    }
+
+
+    /*테이블 - 회사별 사용 현황*/
+
+    .total-user-table-client table thead {
+        border-collapse: collapse;
+        /*border: 1px solid #000;*/
+    }
+
+    .total-user-table-client table thead {
+        display: table;
+        width: calc(100%);
+    }
+
+    .total-user-table-client table tbody {
+        display: block;
+        max-height: 25vh;
+        overflow-y: scroll;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar-thumb {
+        background-color: #484848;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .total-user-table-client table tbody::-webkit-scrollbar-track {
+        background-color: darkgray;
+    }
+
+
+    .total-user-table-client table th, td {
+        width: 5%;
+        padding: 5px;
+        word-break: break-all;
+    }
+
+    .total-user-table-client table tr {
+        display: table;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .total-user-table-client table td {
+        text-align: left;
+        border-bottom: none;
+        border-left: none;
+    }
+
+}

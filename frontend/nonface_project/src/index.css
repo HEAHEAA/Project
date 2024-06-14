@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('./assets/font/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('./assets/font/font2/NanumSquareNeo-Variable.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dongle';
+  src: url('./assets/font/font3/Dongle-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  font-family: 'SUITE-Regular';
+  /*line-height: 1.0;*/
+  font-weight: 400;
+  font-size: 1rem;
+
+  /*color-scheme: light dark;*/
+  color-scheme: only ligh;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  /*font-synthesis: none;*/
+  /*text-rendering: optimizeLegibility;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  /*-webkit-text-size-adjust: 100%;*/
+}

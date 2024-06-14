@@ -1,0 +1,930 @@
+.customer-head {
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+    line-height: 5px;
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: 600;
+    border-bottom: 1px solid #cccccc;
+    margin-top: -1.6vh;
+}
+
+.customer-head-icon {
+    width: 3.5%;
+    height: 6vh;
+    margin-top: 0.5vh;
+    font-size: 35px;
+    float: left;
+    /*background-color: #1b72bf;*/
+}
+
+.customer-head-p {
+    width: 20%;
+    height: 7vh;
+    float: left;
+    /*background-color: #1b72bf;*/
+}
+
+.customer-head-p span {
+    font-size: 25px;
+    margin-top: 4vh;
+    margin-right: 2vh;
+    float: left;
+}
+
+.customer-head-p p {
+    margin-top: 4vh;
+    font-size: 20px;
+}
+
+.customer-content {
+    width: 25%;
+    max-height: 0%;
+    height: 79vh;
+    min-height: 0vh;
+    overflow: auto;
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+
+.customer-content-map {
+    width: 73.5%;
+    max-height: 100%;
+    /*height: 79vh;*/
+    min-height: 0vh;
+    /*overflow: auto;*/
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+
+.customer-group-folder {
+    width: 95%;
+    min-height: 0vh;
+    margin-left: 2.5%;
+}
+
+.customer-group-folder h2 {
+    font-weight: 400;
+    color: #464646;
+}
+
+.customer-group-folder:nth-child(2) {
+    width: 95%;
+    min-height: 0vh;
+    margin-left: 2.5%;
+    border: 1px solid #cecece;
+    overflow: auto;
+}
+
+.customer-group-folder p {
+    padding-left: 5%;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.customer-group-folder p:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.customer-group-folder span {
+    padding-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.customer-group-folder span:hover {
+    background-color: #eaeaea;
+}
+
+.customer-group-folder button {
+    margin-bottom: 2vh;
+}
+
+.customer-group-folder button:nth-child(1) {
+    margin-left: 40%;
+    margin-right: 0.5vh;
+}
+
+
+.folder-icon {
+    margin-right: 1vh;
+}
+
+.customer-group-detail {
+    width: 95%;
+    min-height: 40vh;
+    margin-left: 2.5%;
+    border: 1px solid #cccccc;
+    margin-bottom: 2vh;
+}
+
+.customer-content-search {
+    width: 100%;
+    height: 6.5vh;
+    /*background-color: #f1f1f1;*/
+}
+
+
+/**
+    사용자관리
+**/
+
+
+.customer-user {
+    width: 99%;
+    max-height: 100%;
+    height: 78vh;
+    min-height: 0vh;
+    overflow: auto;
+    background-color: white;
+    margin-left: 0.5%;
+    top: 100%;
+    transform: translateY(1.5%);
+    border: 2px solid #e3e3e3;
+    float: left;
+}
+
+.customer-user-head {
+    width: 100%;
+    height: 6vh;
+    /*background-color: #cccccc;*/
+    margin-top: 1vh;
+}
+
+.customer-user-app-head {
+    width: 100%;
+    height: 6vh;
+    /*background-color: #cccccc;*/
+    margin-top: 1vh;
+}
+
+
+.customer-user-head-detail {
+    width: 60vw;
+    height: 6vh;
+    /*background-color: #cccccc;*/
+    float: right;
+    margin-right: 1vh;
+}
+
+.customer-user-body {
+    width: 99%;
+    height: 63vh;
+    margin-left: 0.5%;
+    margin-top: 2vh;
+    border: 1px solid #cccccc;
+}
+
+
+.customer-user-head-detail2 {
+    width: 20%;
+    height: 6vh;
+    /*background-color: #cccccc;*/
+    float: right;
+    margin-right: 1vh;
+}
+
+.customer-user-head-detail2 button {
+    float: right;
+}
+
+.customer-content-map-box {
+    width: 100%;
+    height: 71vh;
+    /*background-color: #eaeaea;*/
+}
+
+
+/*테이블*/
+
+.customer-user-table table thead {
+    border-collapse: collapse;
+    /*border: 1px solid #000;*/
+}
+
+.customer-user-table table thead {
+    display: table;
+    width: calc(100%);
+}
+
+.customer-user-table table tbody {
+    display: block;
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
+.customer-user-table table tbody::-webkit-scrollbar {
+    width: 5px;
+}
+
+.customer-user-table table tbody::-webkit-scrollbar-thumb {
+    background-color: #484848;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.customer-user-table table tbody::-webkit-scrollbar-track {
+    background-color: darkgray;
+}
+
+
+.customer-user-table table th, td {
+    width: 5%;
+    padding: 5px;
+    word-break: break-all;
+}
+
+.customer-user-table table tr {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.customer-user-table table td {
+    text-align: left;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+.all-upload-user-modal {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 400px;
+    border: none;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.all-upload-user-modal p{
+  line-height: 10px;
+}
+
+#modal-error-text {
+    color: tomato;
+}
+
+
+@media (min-width: 1920px) and (max-width: 2100px) {
+    .customer-content-map {
+        width: 73.5%;
+        max-height: 100%;
+        /*height: 79vh;*/
+        min-height: 0vh;
+        /*overflow: auto;*/
+        background-color: white;
+        margin-left: 0.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-content-search {
+        width: 100%;
+        height: 10vh;
+        /*background-color: #f1f1f1;*/
+    }
+
+
+    .customer-user-head-detail2 {
+        width: 60%;
+        height: 6vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+    .customer-user-head-detail2 button {
+        float: right;
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 68vh;
+        overflow: hidden;
+    }
+
+    .customer-head {
+        width: 100%;
+        height: 8vh;
+        background-color: white;
+        line-height: 5px;
+        font-family: 'NanumSquareNeo-Variable';
+        font-weight: 600;
+        border-bottom: 1px solid #cccccc;
+        margin-top: -1.6vh;
+    }
+
+    .customer-head-icon {
+        width: 4%;
+        height: 6vh;
+        float: left;
+        font-size: 30px;
+        margin-left: 1vh;
+        margin-top: 0.5vh;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p {
+        width: 20%;
+        height: 7vh;
+        float: left;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p span {
+        font-size: 20px;
+        margin-top: 4.5vh;
+        margin-right: 2vh;
+        float: left;
+    }
+
+
+    .customer-head-p p {
+        margin-top: 4.5vh;
+        font-size: 14px;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) { {
+    /*조직관리*/
+}
+    .customer-head {
+        width: 100%;
+        height: 5vh;
+        background-color: white;
+        line-height: 5px;
+        font-family: 'NanumSquareNeo-Variable';
+        font-weight: 600;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .customer-head-icon {
+        width: 15%;
+        height: 5vh;
+        float: left;
+        margin-top: -3vh;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p {
+        width: 80%;
+        height: 5vh;
+        margin-top: -2vh;
+        margin-left: 1vh;
+        float: left;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p span {
+        font-size: 20px;
+        margin-top: 4vh;
+        margin-right: 2vh;
+        float: left;
+    }
+
+    .customer-head-p p {
+        margin-top: 4vh;
+        font-size: 15px;
+    }
+
+    .customer-content {
+        width: 100%;
+        max-height: 100%;
+        /*height: 79vh;*/
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-content-map {
+        width: 100%;
+        max-height: 100%;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+        margin-bottom: 15vh;
+
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        /*background-color: #eaeaea;*/
+    }
+
+    .customer-content-search {
+        width: 100%;
+        height: 26vh;
+        /*background-color: #f1f1f1;*/
+    }
+
+    .customer-content-search button {
+        width: 90%;
+        height: 6vh;
+
+    }
+
+    .customer-user-head {
+        width: 100%;
+        height: 21vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+    .customer-user-app-head {
+        width: 100%;
+        min-height: 30vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+
+    .customer-user-head-detail {
+        width: 100%;
+        height: 20vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+
+    .customer-user-head-detail button {
+        width: 20%;
+        height: 5vh;
+        float: left;
+        margin-left: 4%;
+    }
+
+    .customer-user-body {
+        width: 99%;
+        height: 20vh;
+        min-height: 30vh;
+        margin-left: 0.5%;
+        margin-top: 2vh;
+        border: 1px solid #cccccc;
+    }
+
+
+    .customer-user {
+        width: 99%;
+        height: 0vh;
+        min-height: 100vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 0.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-user-head-detail2 {
+        width: 100%;
+        height: 6vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+    .customer-user-head-detail2 button {
+        float: none;
+        height: 3vh;
+        margin-top: 2vh;
+        margin-left: 3.5%;
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 71vh;
+        /*background-color: #eaeaea;*/
+    }
+
+
+    .customer-group-folder button {
+        margin-bottom: 2vh;
+    }
+
+    .customer-group-folder button:nth-child(1) {
+        margin-left: 2%;
+        margin-right: 0.5vh;
+    }
+
+}
+
+
+@media (min-width: 401px) and (max-width: 600px) { {
+    /*조직관리*/
+}
+    .customer-head {
+        width: 100%;
+        height: 5vh;
+        background-color: white;
+        line-height: 5px;
+        font-family: 'NanumSquareNeo-Variable';
+        font-weight: 600;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .customer-head-icon {
+        width: 15%;
+        height: 5vh;
+        float: left;
+        margin-top: -3vh;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p {
+        width: 80%;
+        height: 5vh;
+        margin-top: -2vh;
+        margin-left: 1vh;
+        float: left;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p span {
+        font-size: 20px;
+        margin-top: 4vh;
+        margin-right: 2vh;
+        float: left;
+    }
+
+    .customer-head-p p {
+        margin-top: 4vh;
+        font-size: 15px;
+    }
+
+    .customer-content {
+        width: 100%;
+        max-height: 100%;
+        /*height: 79vh;*/
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-content-map {
+        width: 100%;
+        max-height: 100%;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+        margin-bottom: 15vh;
+
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+        /*background-color: #eaeaea;*/
+    }
+
+    .customer-content-search {
+        width: 100%;
+        height: 26vh;
+        /*background-color: #f1f1f1;*/
+    }
+
+    .customer-content-search button {
+        width: 90%;
+        height: 6vh;
+
+    }
+
+    .customer-user-head {
+        width: 100%;
+        height: 47vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+    .customer-user-app-head {
+        width: 100%;
+        min-height: 30vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+
+    .customer-user-head-detail {
+        width: 100%;
+        height: 20vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+
+    .customer-user-head-detail button {
+        width: 45%;
+        height: 7vh;
+        float: left;
+        margin-left: 4%;
+    }
+
+    .customer-user-body {
+        width: 99%;
+        height: 20vh;
+        min-height: 30vh;
+        margin-left: 0.5%;
+        margin-top: 2vh;
+        border: 1px solid #cccccc;
+    }
+
+
+    .customer-user {
+        width: 99%;
+        height: 0vh;
+        min-height: 100vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 0.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-user-head-detail2 {
+        width: 100%;
+        height: 6vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+    .customer-user-head-detail2 button {
+        float: right;
+        height: 7vh;
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 71vh;
+        /*background-color: #eaeaea;*/
+    }
+
+
+    .customer-group-folder button {
+        margin-bottom: 2vh;
+    }
+
+    .customer-group-folder button:nth-child(1) {
+        margin-left: 2%;
+        margin-right: 0.5vh;
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 400px) { {
+    /*조직관리*/
+}
+    .customer-head {
+        width: 100%;
+        height: 12vh;
+        background-color: white;
+        line-height: 5px;
+        font-family: 'NanumSquareNeo-Variable';
+        font-weight: 600;
+        border-bottom: 1px solid #cccccc;
+        margin-top: -1.6vh;
+    }
+
+    .customer-head-icon {
+        width: 15%;
+        height: 7vh;
+        float: left;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p {
+        width: 80%;
+        height: 10vh;
+        margin-top: 1.5vh;
+        margin-left: 1vh;
+        float: left;
+        /*background-color: #1b72bf;*/
+    }
+
+    .customer-head-p span {
+        font-size: 20px;
+        margin-top: 4vh;
+        margin-right: 2vh;
+        float: left;
+    }
+
+    .customer-head-p p {
+        margin-top: 4vh;
+        font-size: 15px;
+    }
+
+    .customer-content {
+        width: 100%;
+        max-height: 100%;
+        /*height: 79vh;*/
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-content-map {
+        width: 100%;
+        max-height: 100%;
+        background-color: white;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+        margin-bottom: 15vh;
+
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 71vh;
+        /*background-color: #eaeaea;*/
+    }
+
+    .customer-content-search {
+        width: 100%;
+        height: 35vh;
+        /*background-color: #f1f1f1;*/
+    }
+
+    .customer-content-search button {
+        width: 90%;
+        height: 6vh;
+
+    }
+
+    .customer-user-head {
+        width: 100%;
+        height: 0vh;
+        min-height: 55vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+    .customer-user-app-head {
+        width: 100%;
+        min-height: 30vh;
+        /*background-color: #cccccc;*/
+        margin-top: 1vh;
+    }
+
+
+    .customer-user-head-detail {
+        width: 100%;
+        height: 20vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+
+    .customer-user-head-detail button {
+        width: 45%;
+        height: 7vh;
+        float: left;
+        margin-left: 4%;
+    }
+
+
+    .customer-user-body {
+        width: 99%;
+        /*height: 20vh;*/
+        min-height: 20vh;
+        margin-left: 0.5%;
+        margin-top: 2vh;
+        border: 1px solid #cccccc;
+    }
+
+
+    .customer-user {
+        width: 99%;
+        height: 67vh;
+        min-height: 0vh;
+        overflow: auto;
+        background-color: white;
+        margin-left: 0.5%;
+        top: 100%;
+        transform: translateY(1.5%);
+        border: 2px solid #e3e3e3;
+        float: left;
+    }
+
+    .customer-user-head-detail2 {
+        width: 100%;
+        height: 6vh;
+        /*background-color: #cccccc;*/
+        float: right;
+        margin-right: 1vh;
+    }
+
+    .customer-user-head-detail2 button {
+        float: right;
+        height: 7vh;
+    }
+
+    .customer-content-map-box {
+        width: 100%;
+        height: 71vh;
+        /*background-color: #eaeaea;*/
+    }
+
+
+    .customer-user-table table {
+        white-space: nowrap;
+        border-collapse: collapse;
+    }
+
+    .customer-user-table table thead {
+        border-collapse: collapse;
+        /*border: 1px solid #000;*/
+    }
+
+    .customer-user-table table thead {
+        display: table;
+        width: calc(100%);
+    }
+
+    .customer-user-table table tbody {
+        display: block;
+        max-height: 56vh;
+        overflow-y: scroll;
+    }
+
+    .customer-user-table table tbody::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .customer-user-table table tbody::-webkit-scrollbar-thumb {
+        background-color: #484848;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .customer-user-table table tbody::-webkit-scrollbar-track {
+        background-color: darkgray;
+    }
+
+
+    .customer-user-table table th, td {
+        width: 5%;
+        padding: 5px;
+        word-break: break-all;
+    }
+
+    .customer-user-table table tr {
+        display: table;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .customer-user-table table td {
+        text-align: left;
+        border-bottom: none;
+        border-left: none;
+    }
+
+
+}
