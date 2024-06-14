@@ -1,0 +1,244 @@
+.membership-contanier{
+    width: 80%;
+    height: 95vh;
+    background-color: #f8f8f8;
+    margin-left: 10%;
+    border-right: 1px solid #e5e5e5;
+    box-shadow: 5px 5px 10px 5px #e3e3e3;
+    margin-top: 5vh;
+}
+
+.ms-menu{
+    width: 8%;
+    height: 95vh;
+    /*background-color: #ff883a;*/
+    float: left;
+}
+
+.ms-contanier{
+    width: 92%;
+    height: 95vh;
+    /*background-color: #ffc9c9;*/
+    float: left;
+}
+
+
+/**그룹 메뉴***/
+.ms-group-menu{
+    width: 100%;
+    height: 60px;
+    /*background-color: #1e1e1e;*/
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+.ms-group-menu .ms-menu-buttonOn{
+    background-color: #174b8d;
+    transition: 0.5s;
+}
+.ms-group-menu .ms-menu-buttonOff{
+    background-color: #5488c7;
+}
+
+.ms-menu-icon{
+    width: 25%;
+    height: 50px;
+    margin-right: 0.5vh;
+}
+
+
+
+/**그룹헤더*/
+.mbs-head {
+    width: 100%;
+    height: 15.3vh;
+    margin-top: 2vh;
+    /*background-color: rgba(23, 50, 96, 0.95);*/
+}
+
+.mbs-head .mbs-head-title {
+    width: 100%;
+    height: 8vh;
+    line-height: 10px;
+    /*background-color: rgba(23, 50, 96, 0.95);*/
+    float: left;
+}
+
+.mbs-head .mbs-head-title h1 {
+    font-size: 30px;
+    margin-left: 2vh;
+}
+
+.mbs-head .mbs-head-title h1 small {
+    font-size: 20px;
+    color: #3b3b3b;
+}
+
+.mbs-head .mbs-head-title p {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #3a3a3a;
+    margin-left: 2vh;
+}
+
+
+.mbs-head-select {
+    width: 100%;
+    height: 8vh;
+    margin-top: 2vh;
+
+}
+
+.mbs-head-select p {
+    text-align: left;
+    float: left;
+    margin-left: 2vh;
+}
+
+.mbs-head-section01{
+    width: 15%;
+    height: 7vh;
+    float: left;
+}
+
+
+.mbs-head-section04{
+    float: left;
+    width: 30%;
+    height: 7vh;
+}
+
+.mbs-head-section05{
+    float: left;
+    width: 68%;
+    height: 7vh;
+    /*background-color: #737373;*/
+    margin-left: 2vh;
+}
+.mbs-head-section05 button{
+    float: right;
+    margin-right: 0.5vh;
+}
+
+
+.mbs-list-search {
+    width: 100%;
+    height: 3vh;
+    float: right;
+    border-radius: 50px;
+    margin-bottom: 0.5vh;
+}
+
+.mbs-container-1 {
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.mbs-container-1 input#mbs-search {
+    width: 100%;
+    height: 55px;
+    margin-left: 2vh;
+    /*background: #2b303b;*/
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+
+.mbs-container-1 input#mbs-search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.mbs-container-1 input#mbs-search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+
+.mbs-container-1 input#mbs-search::-moz-placeholder { /* Firefox 19+ */
+    color: #65737e;
+}
+
+.mbs-container-1 input#mbs-search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.mbs-container-1 .mbs-icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 7%;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.mbs-container-1 input#mbs-search:hover,
+.container-1 input#mbs-search:focus,
+.container-1 input#mbs-search:active {
+    outline: none;
+    background: #ffffff;
+    transition: 0.4s;
+}
+
+
+
+
+
+.mbs-head-section02{
+    float: left;
+    width: 20%;
+    height: 7vh;
+    margin-left: 2vh;
+    /*background-color: #737373;*/
+}
+.mbs-head-section03{
+    float: left;
+    width: 62%;
+    height: 7vh;
+    margin-left: 2vh;
+}
+.mbs-head-section03 button{
+    float: right;
+    margin-right: 0.5vh;
+}
+
+.mbs-head-section03 button{
+    float: right;
+    margin-right: 0.5vh;
+    border-radius: 50px;
+}
+
+/*검색창 end*/
+
+
+/*유저 추가 모달 */
+.mbs-user-update-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+/*테이블*/
+.mbs-Table{
+    width: 100%;
+    height: 70vh;
+    /*background-color: #737373;*/
+    margin-top: 4vh;
+}
+/*테이블 end*/
+
+

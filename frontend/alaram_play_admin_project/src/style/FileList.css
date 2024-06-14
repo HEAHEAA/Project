@@ -1,0 +1,1120 @@
+.contanier {
+    width: 100%;
+    height: 95vh;
+    margin-top: 5vh;
+}
+
+.play-list-box {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+.file-list-box {
+    width: 35%;
+    height: 100%;
+    background-color: rgba(17, 86, 154, 0.95);
+    float: left;
+}
+
+
+/********* A. 파일 플레이 ***********/
+.file-play-content {
+    width: 90%;
+    height: 97%;
+    margin-left: 5%;
+    margin-top: 1%;
+    /*background-color: #f5f5f5;*/
+}
+
+.file-play {
+    width: 70%;
+    height: 100%;
+    background-color: #ececec;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.file-play p img {
+    width: 85px;
+    height: 85px;
+}
+
+.file-play img {
+    width: 100%;
+    height: 95vh;
+}
+
+
+.file-update {
+    width: 30%;
+    height: 100%;
+    /*background-color: #eaeaea;*/
+    float: left;
+}
+
+.file-update-title {
+    width: 90%;
+    margin-left: 5%;
+    height: 5vh;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 25px;
+}
+
+
+.file-update table {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+.file-update button {
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 1vh;
+    margin-left: 5%;
+}
+
+
+.delete-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.dl-modal-btn {
+    width: 100%;
+    height: 3vh;
+    margin-top: 1vh;
+    text-align: right;
+}
+
+.dl-modal-btn button:nth-child(1) {
+    margin-right: 0.5vh;
+}
+
+
+/********* B. 파일 리스트 ***********/
+.file-list-content {
+    color: white;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.file-list-content .list-title {
+    width: 100%;
+    height: 7vh;
+    padding-top: 50px;
+}
+
+.file-list-content .list-title button {
+    float: right;
+}
+
+.file-list-content .list-title strong {
+    font-size: 30px;
+}
+
+
+/*1. 검색창 start*/
+.list-search {
+    width: 100%;
+    height: 4vh;
+    /*background-color: #7fb0ef;*/
+    border-radius: 10px;
+    margin-bottom: 0.5vh;
+}
+
+.container-1 {
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search {
+    width: 100%;
+    height: 50px;
+    margin-left: 0%;
+    /*background: #2b303b;*/
+    background: #a8c8ee;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+
+.container-1 input#search::-moz-placeholder { /* Firefox 19+ */
+    color: #65737e;
+}
+
+.container-1 input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+
+.container-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 2%;
+    margin-top: 15px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active {
+    outline: none;
+    background: #ffffff;
+    transition: 0.4s;
+}
+
+/*검색창 end*/
+
+
+/*2. 각 파일별 리스트 start*/
+.file-list-select {
+    width: 100%;
+    height: 67vh;
+    overflow: auto;
+    margin-top: -1vh;
+}
+
+.file-list-select::-webkit-scrollbar {
+    width: 10px;
+}
+
+.file-list-select::-webkit-scrollbar-thumb {
+    background-color: #344b77;
+}
+
+.file-list-select::-webkit-scrollbar-track {
+    background-color: #628ec9;
+}
+
+.file-list-select section {
+    width: 99%;
+    height: 12vh;
+    border: 1px solid #5182c5;
+    border-radius: 5px;
+    margin-top: 1vh;
+}
+
+.file-list-select section:hover {
+    border: 1px solid #7fb0ef;
+    background-color: rgba(56, 109, 161, 0.95);
+    transition: 0.5s;
+}
+
+.preview-mini-box {
+    width: 18%;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.preview-mini-box .dis-content-img03 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.preview-mini-box .dis-content-img03 img {
+    max-width: 150px;
+    max-height: 120px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.preview-mini-box video {
+    width: 300px;
+    height: 110px;
+}
+
+
+.preview-file-text-box {
+    width: 57%;
+    height: 80%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-left: 1px solid #5182c5;
+    line-height: 0px;
+}
+
+.preview-file-text-box p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    height: 10px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.preview-play-box {
+    width: 10%;
+    height: 80%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.preview-play-box p {
+    font-size: 25px;
+    padding-top: 45px;
+}
+
+/*각 파일별 리스트 end*/
+
+
+/********* C. 파일 업로드 start ***********/
+.file-upload-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.file-uploading-box {
+    width: 100%;
+    max-height: 27vh;
+    margin-top: 2vh;
+    overflow: auto;
+}
+
+.file-uploading-box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.file-uploading-box::-webkit-scrollbar-thumb {
+    background-color: #344b77;
+}
+
+.file-uploading-box::-webkit-scrollbar-track {
+    background-color: #628ec9;
+}
+
+
+.file-uploading {
+    width: 100%;
+    height: 7vh;
+    background-color: #f6f6f6;
+    margin-top: 1vh;
+}
+
+.file-uploading section:nth-child(1) {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.file-uploading section:nth-child(1) img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 22%;
+}
+
+
+.file-uploading section:nth-child(2) {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.file-uploading section:nth-child(2) p {
+    line-height: 27px;
+}
+
+.file-uploading section:nth-child(2) p:nth-child(1) {
+    padding-top: 1.5vh;
+}
+
+
+.file-uploading section:nth-child(3) {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+
+.file-uploading section:nth-child(3) h2 {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 30px;
+    color: #8d8d8d;
+}
+
+
+.file-uploading section:nth-child(3) h2:hover {
+    color: #626262;
+}
+
+
+.file-uploading-btn {
+    width: 100%;
+    height: 5vh;
+    margin-top: 2vh;
+    text-align: right;
+}
+
+.file-uploading-btn button {
+    margin-right: 0.5vh;
+}
+
+
+/********* C. 파일 업로드 End ***********/
+
+
+@media (min-width: 1680px) and (max-width: 1980px) {
+    .contanier {
+        width: 100%;
+        height: 95vh;
+        margin-top: 5vh;
+    }
+
+    .play-list-box {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+    .file-list-box {
+        width: 30%;
+        height: 100%;
+        background-color: rgba(17, 86, 154, 0.95);
+        float: left;
+    }
+
+    .file-list-select {
+        width: 100%;
+        height: 60vh;
+        overflow: auto;
+    }
+
+
+    /********* B. 파일 리스트 ***********/
+    file-list-content {
+        color: white;
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .file-list-content .list-title {
+        width: 100%;
+        height: 8vh;
+        padding-top: 40px;
+    }
+
+    .file-list-content .list-title button {
+        margin-top: -10px;
+        float: right;
+    }
+
+    .file-list-content .list-title strong {
+        font-size: 20px;
+    }
+
+
+    /*2. 각 파일별 리스트 start*/
+    .file-list-select section {
+        width: 99%;
+        height: 15vh;
+        border: 1px solid #5182c5;
+        border-radius: 5px;
+        margin-top: 1vh;
+    }
+
+    .file-list-select section:hover {
+        border: 1px solid #7fb0ef;
+        background-color: rgba(56, 109, 161, 0.95);
+        transition: 0.5s;
+    }
+
+
+    .preview-mini-box {
+        width: 25%;
+        height: 90%;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: rgba(255, 255, 255, 0.8);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .preview-mini-box .dis-content-img03 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .preview-mini-box .dis-content-img03 img {
+        max-width: 150px;
+        max-height: 90px;
+        margin-top: 5px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+
+    .dis-content-img04 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .dis-content-img04 img {
+        max-width: 150px;
+        max-height: 90px;
+        margin-top: 5px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+
+    .preview-mini-box video {
+        width: 300px;
+        height: 110px;
+    }
+
+
+
+    .preview-file-text-box {
+        width: 57%;
+        height: 80%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 2%;
+        border-left: 1px solid #5182c5;
+        line-height: 0px;
+    }
+
+    .preview-file-text-box p {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 80%;
+        height: 10px;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+
+    .preview-play-box {
+        width: 10%;
+        height: 80%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+    .preview-play-box p {
+        font-size: 25px;
+        padding-top: 45px;
+    }
+
+
+    /*파일 플레이*/
+    .file-play-content {
+        width: 90%;
+        height: 95%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+        /*background-color: #f5f5f5;*/
+    }
+
+    .file-play {
+        width: 70%;
+        height: 100%;
+        background-color: #ececec;
+        float: left;
+        overflow: hidden;
+    }
+
+    .file-play img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .file-play .media-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .preview-mini-box .dis-content-img03 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .preview-mini-box .dis-content-img03 img {
+        max-width: 150px;
+        max-height: 115px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1680px) {
+    .contanier {
+        width: 100%;
+        height: 95vh;
+        margin-top: 5vh;
+    }
+
+    .play-list-box {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+    .file-list-box {
+        width: 30%;
+        height: 100%;
+        background-color: rgba(17, 86, 154, 0.95);
+        float: left;
+    }
+
+
+    /********* B. 파일 리스트 ***********/
+    file-list-content {
+        color: white;
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .file-list-content .list-title {
+        width: 100%;
+        height: 13vh;
+        padding-top: 50px;
+    }
+
+    .file-list-content .list-title button {
+        margin-top: 10px;
+        width: 99%;
+        float: right;
+    }
+
+    .file-list-content .list-title strong {
+        font-size: 23px;
+    }
+
+
+    .file-list-select {
+        width: 100%;
+        height: 63%;
+        overflow: auto;
+    }
+
+    /*2. 각 파일별 리스트 start*/
+    .file-list-select section {
+        width: 99%;
+        height: 17vh;
+        border: 1px solid #5182c5;
+        border-radius: 5px;
+        margin-top: 1vh;
+    }
+
+    .file-list-select section:hover {
+        border: 1px solid #7fb0ef;
+        background-color: rgba(56, 109, 161, 0.95);
+        transition: 0.5s;
+    }
+
+
+    /*파일 플레이*/
+    .file-play-content {
+        width: 90%;
+        height: 95%;
+        margin-left: 5%;
+        margin-top: 3.8%;
+        /*background-color: #f5f5f5;*/
+    }
+
+    .file-play {
+        width: 70%;
+        height: 100%;
+        background-color: #ececec;
+        float: left;
+        overflow: hidden;
+    }
+
+    .file-play img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 900px) {
+    .contanier {
+        width: 100%;
+        height: 100%;
+        margin-top: 5vh;
+    }
+
+    .play-list-box {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .file-list-box {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(17, 86, 154, 0.95);
+        float: left;
+    }
+
+
+    /********* B. 파일 리스트 ***********/
+    file-list-content {
+        color: white;
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .file-list-content .list-title {
+        width: 100%;
+        height: 13vh;
+        padding-top: 50px;
+    }
+
+    .file-list-content .list-title button {
+        margin-top: 10px;
+        width: 99%;
+        float: right;
+    }
+
+    .file-list-content .list-title strong {
+        font-size: 23px;
+    }
+
+
+    .file-list-select {
+        width: 100%;
+        height: 63%;
+        overflow: auto;
+    }
+
+    /*2. 각 파일별 리스트 start*/
+    .file-list-select section {
+        width: 99%;
+        height: 17vh;
+        border: 1px solid #5182c5;
+        border-radius: 5px;
+        margin-top: 1vh;
+    }
+
+    .file-list-select section:hover {
+        border: 1px solid #7fb0ef;
+        background-color: rgba(56, 109, 161, 0.95);
+        transition: 0.5s;
+    }
+
+
+    /*파일 플레이*/
+    .file-play-content {
+        width: 90%;
+        height: 110vh;
+        margin-left: 5%;
+        margin-top: 3.8%;
+        /*background-color: #f5f5f5;*/
+    }
+
+    .file-play {
+        width: 100%;
+        height: 60vh;
+        background-color: #ececec;
+        float: left;
+        overflow: hidden;
+    }
+
+    .file-play img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .file-update {
+        width: 100%;
+        height: 30vh;
+        margin-top: 1vh;
+        /*background-color: #eaeaea;*/
+        float: left;
+    }
+
+    .file-update-title {
+        width: 90%;
+        margin-left: 5%;
+        height: 5vh;
+        border-bottom: 1px solid #d3d3d3;
+        font-size: 25px;
+    }
+
+
+    .file-update table {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .xs-none {
+        display: none;
+    }
+
+
+    .file-uploading-box {
+        width: 100%;
+        min-height: 28vh;
+        max-height: 28vh;
+        margin-top: 2vh;
+        overflow: auto;
+    }
+
+    .file-uploading-box::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .file-uploading-box::-webkit-scrollbar-thumb {
+        background-color: #344b77;
+    }
+
+    .file-uploading-box::-webkit-scrollbar-track {
+        background-color: #628ec9;
+    }
+
+
+    .file-uploading {
+        width: 100%;
+        height: 9vh;
+        background-color: #f6f6f6;
+        margin-top: 1vh;
+    }
+
+    .file-uploading section:nth-child(1) img {
+        width: 50%;
+        height: 35%;
+        margin-left: 25%;
+        margin-top: 40%;
+    }
+
+    .file-uploading-btn {
+        width: 100%;
+        height: 5vh;
+        margin-top: 2vh;
+        text-align: right;
+    }
+
+    .file-uploading-btn button {
+        margin-right: 1vh;
+    }
+
+    .preview-file-text-box p {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 150px;
+        height: 10px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+
+    .preview-mini-box {
+        width: 25%;
+        height: 90%;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: rgba(255, 255, 255, 0.8);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .preview-mini-box .dis-content-img03 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .preview-mini-box .dis-content-img03 img {
+        max-width: 150px;
+        max-height: 120px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 400px) {
+    .xs-none {
+        display: none;
+    }
+
+    .contanier {
+        width: 100%;
+        height: 100%;
+        margin-top: 8vh;
+    }
+
+    .play-list-box {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .file-list-box {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(17, 86, 154, 0.95);
+        float: left;
+    }
+
+
+    /********* B. 파일 리스트 ***********/
+    file-list-content {
+        color: white;
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    .file-list-content .list-title {
+        width: 100%;
+        height: 18vh;
+        padding-top: 50px;
+    }
+
+    .file-list-content .list-title button {
+        margin-top: 10px;
+        width: 99%;
+        float: right;
+    }
+
+    .file-list-content .list-title strong {
+        font-size: 23px;
+    }
+
+
+    .file-list-select {
+        width: 100%;
+        height: 63%;
+        overflow: auto;
+    }
+
+    /*2. 각 파일별 리스트 start*/
+    .file-list-select section {
+        width: 99%;
+        height: 20vh;
+        border: 1px solid #5182c5;
+        border-radius: 5px;
+        margin-top: 1vh;
+    }
+
+    .file-list-select section:hover {
+        border: 1px solid #7fb0ef;
+        background-color: rgba(56, 109, 161, 0.95);
+        transition: 0.5s;
+    }
+
+
+    /*파일 플레이*/
+    .file-play-content {
+        width: 90%;
+        height: 130vh;
+        margin-left: 5%;
+        margin-top: 3.8%;
+        /*background-color: #f5f5f5;*/
+    }
+
+    .file-play {
+        width: 100%;
+        height: 60vh;
+        background-color: #ececec;
+        float: left;
+        overflow: hidden;
+    }
+
+    .file-play img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .file-update {
+        width: 100%;
+        height: 30vh;
+        margin-top: 1vh;
+        /*background-color: #eaeaea;*/
+        float: left;
+    }
+
+    .file-update-title {
+        width: 90%;
+        margin-left: 5%;
+        height: 5vh;
+        border-bottom: 1px solid #d3d3d3;
+        font-size: 25px;
+    }
+
+
+    .file-update table {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+
+    .file-uploading-box {
+        width: 100%;
+        min-height: 28vh;
+        max-height: 28vh;
+        margin-top: 2vh;
+        overflow: auto;
+    }
+
+    .file-uploading-box::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .file-uploading-box::-webkit-scrollbar-thumb {
+        background-color: #344b77;
+    }
+
+    .file-uploading-box::-webkit-scrollbar-track {
+        background-color: #628ec9;
+    }
+
+
+    .preview-file-text-box p {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 150px;
+        height: 10px;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+
+
+    .file-uploading {
+        width: 100%;
+        height: 12vh;
+        background-color: #f6f6f6;
+        margin-top: 1vh;
+    }
+
+    .file-uploading section:nth-child(1) img {
+        width: 60%;
+        height: 50%;
+        margin-left: 25%;
+        margin-top: 22%;
+    }
+
+    .file-uploading-btn {
+        width: 100%;
+        height: 5vh;
+        margin-top: 2vh;
+        text-align: right;
+    }
+
+    .file-uploading-btn button {
+        margin-right: 1vh;
+    }
+
+
+    .preview-mini-box {
+        width: 25%;
+        height: 90%;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: rgba(255, 255, 255, 0.8);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .preview-mini-box .dis-content-img03 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .preview-mini-box .dis-content-img03 img {
+        max-width: 150px;
+        max-height: 120px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+
+
+
+}

@@ -1,0 +1,339 @@
+.dis-select-content {
+    width: 100%;
+    margin-left: 2.5%;
+}
+
+.mySwiper {
+    transition-timing-function: linear;
+    transition: 0.5s;
+}
+
+.dis-dust04 {
+    width: 500px;
+    margin-left: 0.5%;
+    height: 250px;
+    float: left;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #cbcbcb;
+    margin-top: 1%;
+}
+
+.dis-dust03-mini {
+    width: 235px;
+    margin-left: 0.5%;
+    height: 120px;
+    float: left;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #cbcbcb;
+    margin-top: 1%;
+}
+
+
+.dis-dust03 section {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.dis-dust03 {
+    width: 100%;
+    margin-left: 0.5%;
+    height: 500px;
+    float: left;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #cbcbcb;
+    margin-top: 1%;
+}
+
+
+/****************UI display - 화면분할*************/
+
+.ui-display-weather-size {
+    width: 1080px;
+    height: 240px;
+    background-color: white;
+    /*background-color: #ff7676;*/
+    margin: 0 auto;
+}
+
+
+.ui-display-head-size {
+    width: 1080px;
+    height: 50px;
+    background-color: #ffffff;
+    /*background-color: #ffbbbb;*/
+    margin: 0 auto;
+}
+
+
+.ui-display-content-size {
+    width: 1080px;
+    height: 1325px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+
+.ui-display-foot-size {
+    width: 1080px;
+    height: 120px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.ui-display-foot-size-mini {
+    width: 500px;
+    height: 100px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+/************************************/
+
+
+.dis-select .cnDonutChart01 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    /*margin-top: -170px;*/
+    line-height: 30px;
+}
+
+
+.dis-select .cnDonutChart01 img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 65px;
+    margin-top: 85px;
+}
+
+
+.dis-select-title {
+    text-align: center;
+    margin-top: 15px;
+    line-height: 30px;
+    width: 60%;
+    height: 250px;
+    float: right;
+}
+
+.dis-select-title h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+.dis-select-title h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dis-select-title h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.dis-select01 .cnDonutChart {
+    width: 45%;
+    height: 500px;
+    /*background-color: #0e315e;*/
+    text-align: center;
+    line-height: 10px;
+    float: left
+}
+
+
+.dis-select01 .cnDonutChart img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 175px;
+    margin-top: 170px;
+}
+
+
+.dis-select-title01 {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+    /*background-color: #0e315e;*/
+}
+
+.dis-select-title01 h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+
+}
+
+.dis-select-title01 h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.dis-select-title01 h3 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.dis-select-title-p {
+    width: 70%;
+    text-align: center;
+    margin-top: -140px;
+    line-height: 10px;
+    float: right;
+}
+
+.dis-select-title-p h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.dis-select-title-p h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.dis-select-title-p h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/**********************미니버전*****/
+
+.ui-display-weather-size-mini {
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+.ui-display-head-size-mini {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.ui-display-content-size-mini {
+    width: 100%;
+    height: 630px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+.dis-select .cnDonutChart {
+    width: 500px;
+    height: 170px;
+    /*background-color: #0e315e;*/
+    position: absolute;
+    text-align: center;
+    margin-top: -20px;
+    line-height: 10px;
+}
+
+
+.dis-dust04-mini {
+    width: 100%;
+    margin-left: 0.5%;
+    height: 220px;
+    float: left;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #cbcbcb;
+    margin-top: 1%;
+}
+
+
+.cnDonutChart-mini img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    margin-left: 75px;
+    margin-top: 65px;
+}
+
+.dis-select-title-mini {
+    text-align: center;
+    width: 60%;
+    height: 240px;
+    margin-top: -190px;
+    line-height: 20px;
+    float: right;
+    /*background-color: #0e315e;*/
+}
+
+.dis-select-title-mini h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.dis-select-title-mini h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dis-select-title-mini h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.dis-select .cnDonutChart-mini-p {
+    width: 100px;
+    height: 170px;
+    /*background-color: #0e315e;*/
+    margin-top: -10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.cnDonutChart-mini-p img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 33px;
+    margin-top: 55px;
+}
+.mini-modal{
+    width: 100%;
+    height: 1000px;
+    border-top: #d5d5d5 5px solid;
+}
+
+.preview-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 80vh;
+    overflow: auto;
+}

@@ -1,0 +1,206 @@
+.signup-box{
+    width: 800px;
+    /* 상하좌우 정중앙 정렬하기 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+.signup-inner{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.signup-inner-box{
+    width: 100%;
+    height: 10vh;
+    line-height: 20px;
+}
+
+.signup-grid input{
+    margin-top: 1vh;
+}
+
+
+.sign-input {
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px;
+    margin-bottom: 0.5vh;
+}
+
+
+@media (min-width: 1910px) and (max-width: 1980px){
+    .signup-box{
+        width: 650px;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+
+@media (min-width: 610px) and (max-width: 1910px){
+    .signup-box{
+        width: 60%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 610px){
+    .signup-box{
+        width: 100%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 380px){
+    .signup-box{
+        width: 100%;
+        /* 상하좌우 정중앙 정렬하기 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        color: #ffffff;
+        line-height: 20px;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+
+    .signup-inner{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .signup-inner-box{
+        width: 100%;
+        height: 12vh;
+        line-height: 20px;
+        display: none;
+    }
+
+    .signup-grid input{
+        margin-top: 1vh;
+    }
+
+
+    .sign-input {
+        width: 100%;
+        height: 4vh;
+        border-radius: 10px;
+        margin-bottom: 0.5vh;
+    }
+}

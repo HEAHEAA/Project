@@ -1,0 +1,365 @@
+.all {
+  width: 98%;
+  margin-left: 1%;
+  height: 1920px;
+  overflow: hidden;
+  font-family: 'SUITE-Regular';
+  cursor: none;
+  /*background-color: #1e1e1e;*/
+}
+
+
+
+
+/*화면 분할 start*/
+.main-header {
+  width: 100%;
+  height: 200px;
+}
+
+.main-dust01 {
+  width: 99%;
+  margin-left: 0.5%;
+  height: 210px;
+  border: 1px solid #818181;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #cbcbcb;
+}
+
+.main-dust02 {
+  width: 99%;
+  margin-left: 0.5%;
+  height: 280px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px 5px #cbcbcb;
+}
+
+.main-content {
+  width: 100%;
+  height: 1070px;
+  border-radius: 10px;
+
+}
+
+.main-footer {
+  width: 100%;
+  height: 120px;
+}
+
+/*화면 분할 End*/
+
+
+/******헤더******/
+.main-header section:nth-child(1) {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.main-header section:nth-child(2) {
+  width: 65%;
+  height: 100%;
+  float: left;
+  /*background-color: #0e315e;*/
+
+}
+
+.main-header section:nth-child(3) {
+  width: 17%;
+  height: 57%;
+  float: left;
+    object-fit:cover;
+  line-height: 12px;
+  margin-left: -210px;
+  /*border-top: 1px solid #d2d2d2;*/
+  /*border-bottom: 1px solid #d2d2d2;*/
+  margin-top: 10px;
+}
+
+
+.main-header section:nth-child(3) h1:nth-child(1) {
+  font-size: 50px;
+  text-align: right;
+  color: #0e315e;
+  margin-top: 25px;
+}
+
+.main-header section:nth-child(3) h1:nth-child(2) {
+  font-size: 40px;
+  text-align: right;
+  color: #0e315e;
+  margin-top: 0px;
+  float: right;
+}
+
+.main-header section:nth-child(3) h1:nth-child(3) {
+  font-size: 40px;
+  text-align: right;
+  color: #0e315e;
+  margin-top: 0px;
+  float: right;
+}
+
+
+/******헤더 section01******/
+.main-header section:nth-child(1) img {
+  width: 370px;
+  height: 100px;
+  vertical-align: middle;
+  transform: translateY(30%);
+  margin-left: 20px;
+
+}
+
+.main-header section:nth-child(1) p {
+  width: 95%;
+  height: 20%;
+  vertical-align: middle;
+  transform: translateY(40%);
+  margin-left: 30px;
+  text-align: right;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+
+/******헤더 section02******/
+.main-header section:nth-child(2) img {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  transform: translateY(19%);
+  float: left;
+  margin-left: 40px;
+}
+
+.main-header section:nth-child(2) .header-text {
+  width: 65%;
+  height: 100%;
+  float: left;
+  font-size: 40px;
+  line-height: 10px;
+    /*background-color: #1e1e1e;*/
+
+}
+
+.main-header section:nth-child(2) .header-text p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 900;
+  color: #2f588d;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+
+.main-header section:nth-child(2) .header-text p:nth-child(2) {
+  font-size: 45px;
+  font-weight: 900;
+  /*padding-left: 0px;*/
+  color: #1f64c2;
+  padding-left: 40px;
+}
+
+.main-header section:nth-child(2) .header-text p:nth-child(3) {
+  font-size: 40px;
+  font-weight: 900;
+  color: #656565;
+  padding-left: 40px;
+}
+
+.main-header section:nth-child(2) .header-text p span:nth-child(1) {
+  font-size: 55px;
+  font-weight: 900;
+  color: #e70000;
+}
+
+.main-header section:nth-child(2) .header-text p strong:nth-child(2) {
+  font-size: 40px;
+  font-weight: 900;
+  color: #1e1e1e;
+}
+
+.dust-header {
+  width: 100%;
+  height: 520px;
+  background-color: #1e1e1e;
+}
+
+/*헤더-대기 01*/
+.dust-select {
+  width: 95%;
+  margin-left: 2.5%;
+  /*background-color: #1e1e1e;*/
+}
+
+.dust-place {
+  width: 30%;
+  height: 50px;
+  margin-left: 1%;
+  margin-bottom: 1vh;
+  /*background-color: #ececec;*/
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #1c63c2;
+  /*border-top: 1px solid #a9a9a9;*/
+  border-bottom: 1px solid #dedede;
+}
+
+.main-dust01 {
+  width: 48%;
+  height: 250px;
+  float: left;
+}
+
+.dust-icon {
+  width: 25%;
+  height: 250px;
+  float: left;
+  /*background-color: #0e315e;*/
+}
+
+.main-dust01 section .cnDonutChart {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 10px;
+  margin-left: 10px;
+  /*background-color: #0e315e;*/
+}
+
+.main-dust01 section .cnDonutChart img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.dust-text {
+  width: 30%;
+  height: 100px;
+  line-height: 30px;
+  margin-top: 10px;
+  float: right;
+  margin-left: 170px;
+  position: absolute;
+  /*background-color: #0e315e;*/
+}
+
+.main-dust01 section h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.main-dust01 section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+.main-dust01 section h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.main-dust02 {
+  width: 100%;
+  margin-top: 10px;
+  height: 500px;
+  float: left;
+}
+
+.dust-icon02 {
+  width: 400px;
+  height: 160px;
+}
+
+.main-dust02 section {
+  width: 100%;
+  height: 400px;
+}
+
+.main-dust02 section .cnDonutChart {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  line-height: 10px;
+  /*background-color: #0e315e;*/
+  float: left;
+}
+
+
+.main-dust02 section .cnDonutChart img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin-left: 175px;
+  margin-top: 175px;
+}
+
+.dust-text02 {
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  margin-top: -185px;
+  /*background-color: #0e315e;*/
+}
+
+.main-dust02 section h1 {
+  text-align: center;
+  font-size: 90px;
+
+}
+
+.main-dust02 section h2 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 120px;
+}
+
+.main-dust02 section h3 {
+  text-align: center;
+  font-size: 80px;
+}
+
+
+/**************콘텐츠***************/
+
+.content-img {
+  text-align: center;
+  display: table;
+  border: 1px solid #818181;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.content-img-div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content-img-div img {
+  max-width: 100%;
+  max-height: 1000px;
+  min-height: 100%;
+}
+
+.content-img-div video {
+  max-width: 100%;
+  max-height: 100%;
+  /*margin-top: 20px;*/
+}
+
+/*************푸터***************/

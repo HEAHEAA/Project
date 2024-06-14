@@ -1,0 +1,11 @@
+node_modules
+dist
+out
+*.log*
+
+electron.vite.config.js
+font/
+bg/
+img/
+icons.svg
+
