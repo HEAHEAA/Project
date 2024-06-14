@@ -1,0 +1,354 @@
+[
+    {
+        "cross_id": "1",
+        "cross_name": "벛꽃로 155번길 입구",
+        "device_id": 1207,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-29 03:55:33",
+        "status": 0
+    },
+    {
+        "cross_id": "1",
+        "cross_name": "벛꽃로 155번길 입구",
+        "device_id": 1208,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-08-29 03:56:27",
+        "status": 0
+    },
+    {
+        "cross_id": "1",
+        "cross_name": "벛꽃로 155번길 입구",
+        "device_id": 1304,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-29 03:58:03",
+        "status": 0
+    },
+    {
+        "cross_id": "1",
+        "cross_name": "벛꽃로 155번길 입구",
+        "device_id": 1305,
+        "device_name": "바닥형 보행신호등 2",
+        "update_time": "2023-08-29 03:58:07",
+        "status": 0
+    },
+    {
+        "cross_id": "2",
+        "cross_name": "아뜨리움 아파트 앞",
+        "device_id": 1219,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-31 10:28:23",
+        "status": 1
+    },
+    {
+        "cross_id": "2",
+        "cross_name": "아뜨리움 아파트 앞",
+        "device_id": 1310,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-31 10:31:29",
+        "status": 1
+    },
+    {
+        "cross_id": "3",
+        "cross_name": "예산고등학교",
+        "device_id": 1317,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-31 10:32:00",
+        "status": 1
+    },
+    {
+        "cross_id": "4",
+        "cross_name": "예화여자고등학교 앞 ",
+        "device_id": 1318,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-31 10:31:31",
+        "status": 1
+    },
+    {
+        "cross_id": "5",
+        "cross_name": "쌍송배기",
+        "device_id": 1319,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-31 10:31:31",
+        "status": 1
+    },
+    {
+        "cross_id": "6",
+        "cross_name": "무한교차로",
+        "device_id": 1315,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": "2023-08-31 10:31:31",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1201,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-31 10:27:14",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1202,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-07-26 14:41:03",
+        "status": 0
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1203,
+        "device_name": "보행자음성안내 3",
+        "update_time": "2023-08-31 10:27:24",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1204,
+        "device_name": "보행자음성안내 4",
+        "update_time": "2023-08-31 10:29:25",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1205,
+        "device_name": "보행자음성안내 5",
+        "update_time": "2023-08-31 10:30:19",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1206,
+        "device_name": "보행자음성안내 6",
+        "update_time": "2023-08-31 10:29:15",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1301,
+        "device_name": "바닥형 보행신호등1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1302,
+        "device_name": "바닥형 보행신호등2",
+        "update_time": "2023-08-31 10:31:47",
+        "status": 1
+    },
+    {
+        "cross_id": "101",
+        "cross_name": "예산 여자 중학교",
+        "device_id": 1303,
+        "device_name": "바닥형 보행신호등3",
+        "update_time": "2023-08-31 10:31:49",
+        "status": 1
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1209,
+        "device_name": "보행자음성안내 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1210,
+        "device_name": "보행자음성안내 2",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1211,
+        "device_name": "보행자음성안내 3",
+        "update_time": "2023-08-31 10:27:15",
+        "status": 1
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1212,
+        "device_name": "보행자음성안내 4",
+        "update_time": "2023-08-31 10:29:02",
+        "status": 1
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1306,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "102",
+        "cross_name": "터미널 사거리 1",
+        "device_id": 1307,
+        "device_name": "바닥형 보행신호등 2",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "105",
+        "cross_name": "터미널 사거리 2",
+        "device_id": 1213,
+        "device_name": "보행자음성안내 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "105",
+        "cross_name": "터미널 사거리 2",
+        "device_id": 1214,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-07-26 13:17:46",
+        "status": 0
+    },
+    {
+        "cross_id": "105",
+        "cross_name": "터미널 사거리 2",
+        "device_id": 1215,
+        "device_name": "보행자음성안내 3",
+        "update_time": "2023-08-22 21:16:31",
+        "status": 0
+    },
+    {
+        "cross_id": "105",
+        "cross_name": "터미널 사거리 2",
+        "device_id": 1216,
+        "device_name": "보행자음성안내 4",
+        "update_time": "2023-08-22 21:17:16",
+        "status": 0
+    },
+    {
+        "cross_id": "105",
+        "cross_name": "터미널 사거리 2",
+        "device_id": 1308,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "106",
+        "cross_name": "대산아파트 앞",
+        "device_id": 1217,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-31 10:30:19",
+        "status": 1
+    },
+    {
+        "cross_id": "106",
+        "cross_name": "대산아파트 앞",
+        "device_id": 1218,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-08-31 10:27:20",
+        "status": 1
+    },
+    {
+        "cross_id": "106",
+        "cross_name": "대산아파트 앞",
+        "device_id": 1309,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "107",
+        "cross_name": "석탐사거리 1",
+        "device_id": 1220,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-31 10:29:23",
+        "status": 1
+    },
+    {
+        "cross_id": "107",
+        "cross_name": "석탐사거리 1",
+        "device_id": 1221,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-08-31 10:28:19",
+        "status": 1
+    },
+    {
+        "cross_id": "107",
+        "cross_name": "석탐사거리 1",
+        "device_id": 1311,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "107",
+        "cross_name": "석탐사거리 1",
+        "device_id": 1312,
+        "device_name": "바닥형 보행신호등 2",
+        "update_time": null,
+        "status": 0
+    },
+    {
+        "cross_id": "108",
+        "cross_name": "석탐사거리 2",
+        "device_id": 1222,
+        "device_name": "석탑사거리 2 보행자음성안내 1",
+        "update_time": "2023-08-27 02:10:15",
+        "status": 0
+    },
+    {
+        "cross_id": "108",
+        "cross_name": "석탐사거리 2",
+        "device_id": 1223,
+        "device_name": "석탑사거리 2 보행자음성안내 2",
+        "update_time": "2023-08-27 02:06:17",
+        "status": 0
+    },
+    {
+        "cross_id": "108",
+        "cross_name": "석탐사거리 2",
+        "device_id": 1313,
+        "device_name": "석탑사거리 2 바닥형 보행신호등 1",
+        "update_time": "2023-08-28 02:06:56",
+        "status": 0
+    },
+    {
+        "cross_id": "108",
+        "cross_name": "석탐사거리 2",
+        "device_id": 1314,
+        "device_name": "석탑사거리 2 바닥형 보행신호등 2",
+        "update_time": "2023-08-28 02:07:12",
+        "status": 0
+    },
+    {
+        "cross_id": "109",
+        "cross_name": "치유의 숲",
+        "device_id": 1224,
+        "device_name": "보행자음성안내 1",
+        "update_time": "2023-08-31 10:29:24",
+        "status": 1
+    },
+    {
+        "cross_id": "109",
+        "cross_name": "치유의 숲",
+        "device_id": 1225,
+        "device_name": "보행자음성안내 2",
+        "update_time": "2023-08-31 10:24:44",
+        "status": 1
+    },
+    {
+        "cross_id": "109",
+        "cross_name": "치유의 숲",
+        "device_id": 1316,
+        "device_name": "바닥형 보행신호등 1",
+        "update_time": null,
+        "status": 0
+    }
+]

@@ -1,0 +1,96 @@
+.ol-popup {
+    width: 120%;
+    height: 100%;
+    background-color: #13182d;
+    color: white;
+    font-size: 16px;
+    /*border: 1px solid #768ae3;*/
+}
+
+.ol-popup-closer {
+    width: 100%;
+    height: 2vh;
+    background-color: #13182d;
+    font-size: 13px;
+    text-align: right;
+}
+
+.ol-popups-css {
+    width: 100%;
+    height: 3vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 14px;
+}
+
+.ol-popups-css2 {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 14px;
+}
+
+.ol-popups-css3 {
+    width: 100%;
+    height: 1vh;
+    margin-top: 1vh;
+    font-size: 14px;
+}
+
+.map-table {
+    color: white;
+    font-size: 13px;
+}
+
+.map-table table thead{
+    width: 100%;
+    height: 1vh;
+    background-color: #2f3542;
+}
+
+
+.map-table2 {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    height: 5vh;
+    overflow: auto;
+}
+
+.map-table2 li{
+    padding-left: 1vh;
+}
+
+.ol-popup-content {
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-left: 5%;
+}
+
+.ol-popup-content {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.ol-popup-content thead {
+    background-color: #13182d;
+    border-bottom: 1px solid white;
+    /*border: 1px solid white;*/
+}
+
+.ol-popup-content tbody {
+    background-color: #13182d;
+    /*background-color:  #2f3542;*/
+}
+
+.layer-switcher.shown.layer-switcher-activation-mode-click {
+    padding-right: 34px;
+}
+
+.layer-switcher.shown.layer-switcher-activation-mode-click > button {
+    right: 0;
+    border-left: 0;
+}

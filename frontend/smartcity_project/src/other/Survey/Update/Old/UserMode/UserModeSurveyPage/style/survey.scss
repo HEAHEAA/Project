@@ -1,0 +1,260 @@
+@media screen and (min-width: 800px) {
+  .surveyContainer {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    text-align: left;
+
+    .listHeader {
+      background-color: #636161;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+
+      .logoFlex {
+        float: left;
+        left: 100px;
+
+        .logo {
+          width: 160px;
+          cursor: pointer;
+        }
+      }
+
+      h2 {
+        text-align: center;
+        position: relative;
+        color: #fff;
+        font-size: 2rem;
+        padding-bottom: 10px;
+      }
+
+      .utileWrap {
+        position: relative;
+        display: block;
+        color: #fff;
+
+
+        .locationWrap {
+          display: flex;
+          justify-content: flex-start;
+          gap: 10px;
+
+          li {
+            color: #fff;
+            list-style-type: none;
+          }
+        }
+
+      }
+    }
+
+    .surveyBody {
+      width: 80%;
+      margin: 0 auto;
+
+      .surveyBodyHeader {
+        width: 100%;
+        align-items: center;
+        //margin: 0 auto;
+        margin: 50px 0;
+        padding: 20px;
+        font-size: large;
+        font-weight: 00;
+        border: 1px dashed #aaa;
+        background-color: #ddd;
+        color: #333;
+
+        .iconWrap {
+          margin-right: 20px;
+
+          .iconItem {
+            font-size: 50px;
+          }
+        }
+
+        .titleWrap {
+          h4 {
+            font-size: 1.1rem;
+            padding-bottom: 5px;
+          }
+
+          .headerTitle,
+          .headerDate,
+          .headernumber,
+          .headerNotice {
+            font-size: 0.9rem;
+
+            p {
+              margin: 0;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+
+      .surveyBox {
+        margin: 0 auto;
+
+        .surveyBoxTitle {
+          font-weight: 500;
+          font-size: 1.1rem;
+          color: #5e73b2;
+        }
+
+        .radioGroup {
+          margin: 5px 0 15px 0;
+          color: #727272;
+        }
+
+        .css-ahj2mt-MuiTypography-root {
+          font-size: 0.9rem;
+        }
+
+        .radioGroup .MuiFormControlLabel-root {
+          margin-top: -8px;
+        }
+
+        .surveyButton {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          gap: 20px;
+          padding-bottom: 50px;
+        }
+      }
+    }
+
+  }
+}
+
+// mobile
+@media screen and (max-width: 799px) {
+  .surveyContainer {
+    .listHeader {
+      background-color: #636161;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0 20px;
+
+      .logoFlex {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+
+        .logo {
+          width: 100px;
+        }
+      }
+
+      .headflex {
+        text-align: center;
+
+        h2 {
+          font-size: 1.5rem;
+          padding-bottom: 10px
+        }
+
+        .utileWrap {
+          font-size: 0.9rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          .css-i4bv87-MuiSvgIcon-root {
+            width: 15px;
+            height: 15px;
+          }
+
+          .locationWrap {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+
+            li {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .surveyBody {
+      width: 90%;
+      margin: 0 auto;
+
+      .surveyBodyHeader {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin: 30px 0;
+        padding: 20px 10px;
+        border: 1px dashed #aaa;
+        background-color: #ddd;
+        color: #333;
+
+        .iconWrap {
+          margin-right: 10px;
+
+          .iconItem {
+            font-size: 50px;
+          }
+        }
+
+        .titleWrap {
+          h4 {
+            font-size: 1.2rem;
+            padding-bottom: 5px;
+          }
+
+          .headerTitle,
+          .headerDate,
+          .headerNotice {
+            font-size: 1rem;
+
+            p {
+              margin: 0;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+
+      .surveyBox {
+        margin: 0 auto;
+
+        .surveyBoxTitle {
+          font-weight: 500;
+          font-size: 1.1rem;
+          color: #5e73b2;
+        }
+
+        .radioGroup {
+          margin: 5px 0 15px 0;
+          color: #727272;
+        }
+
+        .css-ahj2mt-MuiTypography-root {
+          font-size: 1rem;
+        }
+
+        .radioGroup .MuiFormControlLabel-root {
+          margin-top: -8px;
+        }
+
+        .surveyButton {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          gap: 10px;
+          padding-bottom: 50px;
+        }
+      }
+    }
+
+  }
+}
