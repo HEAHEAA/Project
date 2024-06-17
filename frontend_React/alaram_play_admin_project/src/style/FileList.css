@@ -29,7 +29,8 @@
 
 .file-play {
     width: 70%;
-    height: 100%;
+    height: 92vh;
+    margin-top: 0.5vh;
     background-color: #ececec;
     float: left;
     overflow: hidden;
@@ -222,7 +223,7 @@
 
 .file-list-select section {
     width: 99%;
-    height: 12vh;
+    height: 14vh;
     border: 1px solid #5182c5;
     border-radius: 5px;
     margin-top: 1vh;
@@ -462,7 +463,7 @@
     /*2. 각 파일별 리스트 start*/
     .file-list-select section {
         width: 99%;
-        height: 15vh;
+        height: 19vh;
         border: 1px solid #5182c5;
         border-radius: 5px;
         margin-top: 1vh;
@@ -504,20 +505,6 @@
     }
 
 
-    .dis-content-img04 {
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    .dis-content-img04 img {
-        max-width: 150px;
-        max-height: 90px;
-        margin-top: 5px;
-        min-width: 100%;
-        min-height: 100%;
-    }
-
-
     .preview-mini-box video {
         width: 300px;
         height: 110px;
@@ -551,7 +538,7 @@
         height: 80%;
         float: left;
         margin-left: 2%;
-        margin-top: 2%;
+        margin-top: 5.5%;
     }
 
     .preview-play-box p {
@@ -571,7 +558,7 @@
 
     .file-play {
         width: 70%;
-        height: 100%;
+        height: 90vh;
         background-color: #ececec;
         float: left;
         overflow: hidden;

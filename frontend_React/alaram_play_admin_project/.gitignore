@@ -23,7 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-
+node_modules/
 vite.config.js
 font/
 img/
+loading/
+dist/
+
+

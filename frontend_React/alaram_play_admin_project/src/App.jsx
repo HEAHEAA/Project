@@ -6,29 +6,31 @@ import './style/UiEdit.css';
 import './style/Signup.css';
 import './style/DisplayResponsive.css';
 import {Route, Routes} from "react-router-dom";
-import Login from "./login/Login.jsx";
-import Main from "./main/Main.jsx";
-import SignUp from "./login/SignUp.jsx";
-import {LoginProvider} from "./api/Login/LoginContext.jsx";
-import {SignupProvider} from "./api/Login/SignupContext.jsx";
-import Test from "./main/test/Test.jsx";
+import Login from "./sections/login/Login.jsx";
+import Main from "./routes/Main.jsx";
+import SignUp from "./sections/login/SignUp.jsx";
+import MainPlace from "./sections/place/MainPlace.jsx";
+import {LoginProvider} from "./context/LoginContext.jsx";
+import {ReactQueryDevtools} from "react-query/devtools";
+import {NodeProvider} from "./context/NodeContext.jsx";
 
 function App() {
     return (
         <div className="app">
             <LoginProvider>
-                <SignupProvider>
+                <NodeProvider>
                     <Routes>
                         <Route path="/" element={<Login/>}/>
-                        <Route path="/test" element={<Test/>}/>
                         <Route path="/signup" element={<SignUp/>}/>
+                        <Route path="/place" element={<MainPlace/>}/>
                         <Route path="/home" element={<Main/>}/>
                         <Route path="/home/play" element={<Main/>}/>
                         <Route path="/home/ui" element={<Main/>}/>
                         <Route path="/home/membership" element={<Main/>}/>
                     </Routes>
-                </SignupProvider>
+                </NodeProvider>
             </LoginProvider>
+            <ReactQueryDevtools initialIsOpen={false} position='bottom-right'/>
         </div>
     )
 }

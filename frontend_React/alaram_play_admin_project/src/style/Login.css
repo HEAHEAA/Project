@@ -55,6 +55,43 @@
 
 
 
+.login-box-fade{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1.5s;
+    line-height: 10px;
+}
+.fade-icon{
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(80%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        border-radius: 10px;
+        color: white;
+    }
+}
+
+
+
 @media (min-width: 1910px) and (max-width: 1980px){
     .login-box{
         width: 400px;
